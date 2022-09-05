@@ -1,4 +1,4 @@
-
+document.getElementById("ctl03_ctl01_Email").value = localStorage.getItem("signUpEmail");
 
 function changetofoot() {
     document.getElementById("cms").style.display = "none";
@@ -37,19 +37,21 @@ function changetokgs() {
 }
 
 
-const BASE_URL = "http://masai-api-mocker.herokuapp.com/";
 
 const registerSuccess = (name,email,password) => {
     console.log("Sign Up processesing...");
 
-    let body = {name: name, email: email, password: password, username: userName, mobile: phone,description : description}
-    fetch(`${BASE_URL}auth/register`, {
+    let body = {name: name, email: email, password: password}
+    fetch(`http://localhost:3000/posts`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify(body),
-    }).then(response => location.href = "./logIn.html").then(response => console.log("signUp successfull"));
+    }).then(response => { 
+        console.log("signUp successfull");
+        window.location.href = "./registration-2.html";
+    });
 }
 
 document.getElementById("nxtBtn").addEventListener("click", ()=> {

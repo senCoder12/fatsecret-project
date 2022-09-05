@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FatSecret - Calorie Counter and Diet Tracker for Weight Loss</title>
+    <link rel="stylesheet" href="./style/registration-2.css">
+</head>
+
+<body>
+    <div class="total">
+        <div class="header">
+            <img src="https://static.fatsecret.com/static/images/def20/Fatsecret_logo.png" alt="">
+            <p>My FatSecret Account</p>
+        </div>
+        <hr class="spaciousLine">
+        <div class="centerContent registerContent">
+            <div>
+                <div class="section">
+                    <p class="subtitle">Your Recommended Daily Intake (RDI) is:</p>
+                    <p class="bottomMargin"><input name="ctl00$ctl03$RDI" type="text" value="3000" id="ctl03_RDI"
+                            style="height:24px;font-size:20px;width:100px;vertical-align:middle"> calories a day</p>
+                    <p class="bottomMargin" style="line-height:20px">
+                        Based on your gender, age, height, activity level and goals, we have calculated a Recommended
+                        Daily Intake* (RDI) of <span id="ctl03_RDILabel">3000</span> calories for you.
+                    </p>
+                    <p class="small">
+                        <a id="InfoButton" style="cursor:pointer; cursor:hand" class="info" data-bs-original-title=""
+                            title="">
+                            <strong>* What is my Recommended Daily Intake?</strong>&nbsp;
+                            <img src="https://a.ftscrt.com/static/images/registration/popover.png"
+                                style="position:absolute">
+                        </a>
+                    </p>
+                </div>
+                <div class="section">
+                    <p class="subtitle">Share My Weight, Journal &amp; Calendar</p>
+                    <span id="ctl03_SharePermission"><span id="ListItem0"><input id="ctl03_SharePermission_0"
+                                type="radio" name="ctl00$ctl03$SharePermission" value="0" checked="checked"><label
+                                for="ctl03_SharePermission_0">With everyone <img
+                                    src="https://a.ftscrt.com/static/images/registration/share_everyone.png"
+                                    style="margin: 0px 30px 0px 10px;vertical-align:middle;"></label></span><span
+                            id="ListItem1"><input id="ctl03_SharePermission_1" type="radio"
+                                name="ctl00$ctl03$SharePermission" value="1"><label for="ctl03_SharePermission_1">With
+                                my followers <img
+                                    src="https://a.ftscrt.com/static/images/registration/share_buddies.png"
+                                    style="margin: 0px 30px 0px 10px;vertical-align:middle;"></label></span><span
+                            id="ListItem2"><input id="ctl03_SharePermission_2" type="radio"
+                                name="ctl00$ctl03$SharePermission" value="2"><label for="ctl03_SharePermission_2">Keep
+                                private <img src="https://a.ftscrt.com/static/images/registration/share_private.png"
+                                    style="margin: 0px 30px 0px 10px;vertical-align:middle;"></label></span></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="optionalBox">
+            <div class="centerContent registerContent">
+                <p class="noMargin" align="right" style="padding-top:16px"><strong>Optional</strong></p>
+                <div class="section">
+                    <p class="subtitle noMargin">My Bio - About Me</p>
+                    <div class="inlineElement" style="width: 500px">
+                        <p style="line-height:30px"><strong style="font-size: 13px">Tell us about yourself</strong></p>
+                        <p>By filling in your bio other members will be able to know a bit more about you</p>
+                    </div>
+                    <div class="inlineElement" style="margin-left: 58px;vertical-align: text-bottom">
+                        <img src="https://a.ftscrt.com/static/images/registration/add_bio.png">
+                    </div>
+                    <div class="box">
+                        <textarea name="ctl00$ctl03$Bio" rows="8" cols="20" id="ctl03_Bio"
+                            style="width:100%;"></textarea>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="inlineElement" style="width: 500px">
+                        <p class="subtitle noMargin">My Image</p>
+                        <p style="margin-top:8px">Upload your own image</p>
+                    </div>
+                    <div class="inlineElement" style="margin-left: 58px;vertical-align: text-bottom">
+                        <img src="https://a.ftscrt.com/static/images/registration/add_image.png">
+                    </div>
+                    <div class="box" style="padding-bottom:10px;padding-top:20px">
+                        <div id="DragDropArea" align="center"
+                            style="padding: 10px 0px; border: 2px dashed rgb(140, 204, 149); font-size: 12px; background-color: transparent;">
+                            <div id="ctl03_ImageUpload_BeforeInput" style="display:block;margin:9px 0px">
+
+                                <b>Drag and drop here</b>
+
+                            </div>
+                            <input type="file" name="ctl00$ctl03$ImageUpload$InputDataControl" id="InputDataControl"
+                                style="display:none;margin:9px 0px">
+                            <div id="LoaderPanel" style="display:none;margin:19px 0px">
+                                <div id="Loader" style="margin: 0px; display: none;"></div>
+                                <div id="ProgressBar"
+                                    style="margin:0 auto;width:300px;height:6px;border-top-left-radius:0px;border-bottom-left-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:0px"
+                                    role="progressbar" aria-valuemin="0"
+                                    class="ui-progressbar ui-corner-all ui-widget ui-widget-content" aria-valuemax="100"
+                                    aria-valuenow="0">
+                                    <div class="ui-progressbar-value ui-corner-left ui-widget-header"
+                                        style="display: none; width: 0%;"></div>
+                                </div>
+                            </div>
+                            <div id="ctl03_ImageUpload_AfterInput" align="Center" style="display:none">
+
+                                <img id="ctl03_ImageUpload_ImgCrop">
+
+                            </div>
+                        </div>
+                        <div id="LoaderLabel" align="center"
+                            style="margin:0 auto;padding:24px 0px;color:#33B34B;font-weight:bold;display:none">
+                            Loading...
+                        </div>
+                        <div id="ctl03_ImageUpload_UploadPanel" style="font-size:12px;text-align:center;height:50px">
+
+                            <b>or</b>
+                            <br>
+                            <a id="UploadButton" class="button grey thin"
+                                style="max-width:300px;float:none;margin:0 auto;cursor:pointer;cursor:hand">
+                                <span class="left">&nbsp;</span>
+                                <form action="/action_page.php" id="ctl03_ImageUpload_UploadLabel">
+                                    <input type="file" id="myFile" name="filename" style="margin-left: 125px;">
+                                  </form>
+                                  
+                                <!-- <span id="ctl03_ImageUpload_UploadLabel" class="middle" style="min-width:292px">Click to -->
+                                    <!-- upload image</span> -->
+                                <span class="right">&nbsp;</span>
+                            </a>
+
+                        </div>
+
+                        <div id="ctl03_ImageUpload_ImageEditPanel" align="center"
+                            style="display:none;padding-bottom:25px;text-align:left">
+
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="2">
+                                            <div
+                                                style="width:290px;margin-top:25px;background-image:url('https://a.ftscrt.com/static/images/imguploader/image_Edit_BG_middle.png')">
+                                                <img
+                                                    src="https://a.ftscrt.com/static/images/imguploader/image_Edit_BG_top.png">
+                                                <div style="padding:0px 10px">
+                                                    <img style="vertical-align:middle"
+                                                        src="https://a.ftscrt.com/static/images/imguploader/image_crop.png">
+                                                    <p
+                                                        style="margin:0;padding-bottom:11px;padding-top:11px;width:220px;vertical-align:middle;display:inline-block;zoom:1">
+                                                        Position and size the image and then click "Save"</p>
+                                                    <div>
+                                                        <a id="RotateLeft" href="javascript:rotate('left')"><img
+                                                                src="https://a.ftscrt.com/static/images/imguploader/But_RotateImage_Right_default.png"></a>&nbsp;
+                                                        <a id="RotateRight" href="javascript:rotate('right')"><img
+                                                                src="https://a.ftscrt.com/static/images/imguploader/But_RotateImage_Left_default.png"></a>
+                                                    </div>
+                                                </div>
+                                                <img
+                                                    src="https://a.ftscrt.com/static/images/imguploader/image_Edit_BG_bottom.png">
+                                            </div>
+                                        </td>
+                                        <td style="vertical-align:bottom">
+                                            <div style="width:290px;margin-left:23px;vertical-align:top">
+
+                                                <a name="CancelButton" class="button grey thin" href="#"
+                                                    onclick="cancel()" style="float:none;margin-bottom:12px">
+                                                    <span class="left">&nbsp;</span>
+                                                    <span class="middle" style="width:282px">Cancel</span>
+                                                    <span class="right">&nbsp;</span>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="vertical-align:top">
+                                            <div style="width:290px;margin-left:23px;vertical-align:top">
+                                                <a id="UploadButton2" class="button grey thin"
+                                                    style="max-width:300px;float:none;margin:0 auto;cursor:pointer;cursor:hand">
+                                                    <span class="left">&nbsp;</span>
+                                                    <span class="middle" style="width:282px">Upload a different
+                                                        image</span>
+                                                    <span class="right">&nbsp;</span>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <button id="getStartedBtn">Get sarted</button>
+    </div>
+</body>
+
+</html>

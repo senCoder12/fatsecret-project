@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "some name",
+      "email": "someEmail@json-server",
+      "password": "somePassword"
+    },
+    {
+      "name": "Mayukh sen",
+      "email": "mayukh123@gmail.com",
+      "password": "mayukh123",
+      "id": 2
+    },
+    {
+      "name": "mayuk",
+      "email": "mayukh123@gmail.com",
+      "password": "12345678",
+      "id": 3
+    },
+    {
+      "name": "Gourav",
+      "email": "gouravsapkal123@gmail.com",
+      "password": "12345678",
+      "id": 4
+    },
+    {
+      "name": "taiwan",
+      "email": "mayukhsen448@gmail.com",
+      "password": "12345678",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
