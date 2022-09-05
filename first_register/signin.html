@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="icon" href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo400/1753594/1753594-1556750197620-e6d51f94ddc23.jpg">
+    <style>
+        #registercontainer{
+            width: 65%;
+            margin: auto;
+            border: 1px solid rgb(139, 214, 139);
+            height: 550px;
+            margin-top: 100px;
+            /* box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px; */
+            box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+            
+        }
+
+
+        #centerdivemail{
+            width: 50%;
+            /* border: 2px solid red; */
+            margin: auto;
+            margin-top: 20px;
+
+        }
+
+       
+        
+
+        #password{
+            padding: 10px;
+            font-size: 15px;
+            width: 45%;
+        }
+        
+        #signinNow{
+            width: 45%;
+            height: 40px;
+            margin-left: 10px;
+            color: white;
+            background-color: rgb(46, 184, 46);
+            border: none;
+            font-weight: bold;
+        }
+
+        #signinNow:hover{
+            cursor: pointer;
+            background-color: rgb(42, 161, 42);;
+        }
+
+        #forgotpassword a{
+            
+            text-decoration: none;
+            font-size: 14px;
+            color: #4285f4;
+        }
+
+        #forgotpassword{
+            text-align: center;
+        }
+
+        #facebook{
+            display: flex;
+            background-color: #3766b8;
+            color: white;
+            align-items: center;
+            width: 52%;
+            margin: auto;
+            height: 40px;
+            margin-top: 70px;
+        }
+
+        #facebook > img{
+            width: 25px;
+            height: 25px;
+            margin-left: 5px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            
+        }
+
+        #facebook p{
+            justify-content: center;
+            margin-left: 25%;
+        }
+
+        #facebook:hover{
+            cursor: pointer;
+            background-color: #1f4fa3;
+        }
+
+        #google{
+            display: flex;
+            background-color: #4285f4;
+            color: white;
+            align-items: center;
+            width: 52%;
+            margin: auto;
+            height: 40px;
+            margin-top: 18px;
+        }
+
+        #google > img{
+            width: 25px;
+            height: 25px;
+            margin-left: 5px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            
+        }
+
+        #google p{
+            justify-content: center;
+            margin-left: 25%;
+        }
+
+        #google:hover{
+            cursor: pointer;
+            background-color: #4278cf;
+        }
+
+        #signinredirect{
+            font-size: 17px;
+            color: rgb(117, 117, 117);
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        #signinredirect a{
+            text-decoration: none;
+            color: rgb(20, 158, 20);
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        #middletext{
+            text-align: center;
+            font-size: 18px;
+            color: gray;
+        }
+
+        #email{
+            padding: 10px;
+            font-size: 15px;
+            width: 48%;
+            display: flex;
+            margin: auto;
+            
+        }
+
+        #remember{
+            display: flex;
+            margin-left: 25%;
+            margin-top: -25px;
+            align-items: center;
+        }
+
+        #remember input{
+            height: 10px;
+            width: 10px;
+        }
+
+        #remember p{
+            font-size: 13px;
+        }
+
+        #registertext{
+            text-align: center;
+            font-size: 25px;
+            font-weight: bolder;
+            color: gray;
+        }   
+
+        #becomemember{
+            color: gray;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        #becomemember a{
+            text-decoration: none;
+            color: #4285f4;
+            font-weight: bold;
+            font-size: 18px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="registercontainer">
+        
+        <div id="facebook"><img src="https://play-lh.googleusercontent.com/5pZMqQYClc5McEjaISPkvhF8pDmlbLqraTMwk1eeqTlnUSjVxPCq-MItIrJPJGe7xW4=w480-h960-rw"><p>Continue with Facebook</p></div>
+        <div id="google"><img src="https://play-lh.googleusercontent.com/6UgEjh8Xuts4nwdWzTnWH8QtLuHqRMUB7dp24JYVE2xcYzq4HA8hFfcAbU-R-PC_9uA1" alt=""><p>Continue with Google</p></div>
+
+        <p id="middletext">or sign in with your FatSecret account</p>
+
+        <input type="text" id="email" placeholder="Email or Member Name">
+
+        <div id="centerdivemail">
+            
+            <input type="text" id="password" placeholder="Password">
+            <button id="signinNow">Sign In</button>
+        </div>
+
+        <p id="forgotpassword"><a href="">Forgot Password?</a></p>
+        
+        <div id="remember">
+            <input type="checkbox">
+            <p>Remember Me</p>
+        </div>
+        
+        <p id="registertext">Register Today! 100% Free!</p>
+        
+        <p id="becomemember">Become a member! <a href="">Create Account</a></p>
+    </div>
+</body>
+</html>
+
+<script>
+    document.getElementById("signinNow").addEventListener("click", ()=>{
+        let email = document.getElementById("email").value;
+        let password = document.getElementById("password").value;
+
+        if(email == "" || password == ""){
+            alert("Please enter proper Email and password ..!");
+        }else{
+            let signinobj = {
+                email : email,
+                password : password
+            }
+            location.href = "";
+        }
+
+       
+        
+       
+    })
+</script>
