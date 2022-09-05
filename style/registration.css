@@ -1,0 +1,157 @@
+.total {
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 986px;
+    border: 1px dotted #88a8cf;
+    height: 100%;
+}
+.header {
+    height: 80px;
+}
+.spaciousLine {
+    margin-bottom: 60px;
+    margin-top: 0;
+    width: 100%;
+    background-color: #bacfe6!important;
+    color: #bacfe6!important;
+    height: 1px;
+}
+
+.centerContent, .centerInnerContent {
+    margin: 0 auto;
+    position: relative;
+    width: 1026px;
+}
+.popover {
+    max-width:500px;
+}
+.infoClass {
+    font-size:12px;
+    line-height:1.0;
+    padding:20px 20px 40px 20px;
+}
+.header > p{
+    margin-right:40px;
+    margin-top:34px;
+    float:right;
+    color: #88a8cf;
+    font-size: 25px;
+}
+.header img {
+    margin:15px 0px 0px 40px;
+    float:left;
+}
+.form {
+    margin-top: 60px;
+}
+.registerContent {
+    width: 660px;
+}
+p.subtitle {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 0 22px;
+    color: #88a8cf;
+}
+.registerTable {
+    margin-bottom: 32px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.registerTable>tbody>tr>td {
+    padding-top: 0;
+    padding-bottom: 15px;
+    height: 22px;
+}
+td.label {
+    width: 150px;
+    font-size: 12px;
+    color: #999;
+    font-weight: 700;
+}
+.selectBox {
+    width: 100px;
+    height: 22px;
+    margin-right: 5px;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.textBox {
+    border: 1px solid;
+    border-color: #a9a9a9;
+    width: 88px;
+    height: 18px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 16px;
+}
+.textField {
+    width: 370px;
+    border: 1px solid;
+    border-color: #a9a9a9;
+    height: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 16px;
+}
+.universalModelWarning .modal-footer a, a {
+    text-decoration: none;
+}
+a {
+    color: #028cc4;
+}
+body, input {
+    font-size: 12px;
+}
+input {
+    font: 8pt Verdana,Arial,Helvetica,sans-serif;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.info {
+    color: #777;
+    clear: both;
+}
+.practical {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+}
+#cancelBtn, #nxtBtn {
+    font-weight: 700;
+    padding: 5px 60px;
+    cursor: pointer;
+    border: 1px solid;
+    font-size: 16px;  
+}
+#cancelBtn {
+    color: #028cc4;
+}
+#nxtBtn {
+    display:inline-block;
+    margin-left: 320px;
+    background-color: #76ec76;
+    color: white;
+}
