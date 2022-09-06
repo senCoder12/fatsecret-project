@@ -1,0 +1,831 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("https://static.fatsecret.com/static/images/splash/Sunrise_BG_01.jpg");
+  margin: auto;
+}
+/* navbar css */
+.navbar-toggler {
+  background-color: green;
+  color: black;
+} 
+.navbar-toggler-icon {
+  color: black;
+} 
+ .navbar-toggler-icon{
+  font-weight: bolder;
+  color: white;
+} 
+
+#flag{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.navbar,
+#desc {
+  background-color: transparent;
+  width: 70vw;
+  margin: auto;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+#logo {
+  display: flex;
+  margin-left: 35vw;
+}
+#logo a {
+  color: white;
+}
+
+
+/* section -1  */
+#desc div > h1 {
+  margin-top: 50px;
+  color: white;
+}
+#fatLock {
+  margin: 20px 0px;
+}
+#start {
+  /* margin-left: 100px; */
+  padding: 8px 50px;
+  background-color: rgb(50, 179, 76);
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 20px;
+}
+#start:hover{
+  background-color: #0f7724;
+}
+#desc h6 {
+  color: white;
+  font-weight: bold;
+  margin: 20px 0px;
+  font-size: 20px;
+}
+#desc span {
+  cursor: pointer;
+}
+#desc div p {
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+  margin: 40px 0px;
+}
+#icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -40px;
+  /* margin: 0px 20px; */
+}
+#firstLock {
+  margin-left: 33vw;
+  margin-bottom: -18vh;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+/* section-2 */
+#details {
+  margin-top: 60px;
+  background-color: rgb(50, 179, 76);
+  height: 250px;
+  text-align: center;
+  padding-top: 40px;
+  /* width: 70vw; */
+}
+#details h1 {
+  color: white;
+  font-size: 45px;
+  width: 70vw;
+  margin: auto;
+  padding-bottom: 30px;
+}
+#details p {
+  color: white;
+  font-size: 25px;
+  width: 70vw;
+  margin: auto;
+}
+#lock {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* section-3 */
+#Works {
+  background-color: white;
+  height: 250px;
+  /* text-align: center; */
+  padding-top: 40px;
+  display: flex;
+  /* width: 70vw; */
+}
+#allGreen{
+  margin-left: 48vw;
+  margin-top: 10px;
+}
+
+.why {
+  width: 50vw;
+  /* border: 1px solid red; */
+  padding-left: 15vw;
+  /* text-align: center; */
+}
+.why h1 {
+  font-size: 45px;
+  margin: auto;
+  padding-bottom: 30px;
+  color: rgb(50, 179, 76);
+}
+.why p {
+  font-size: 25px;
+  margin: auto;
+}
+.how {
+  width: 50vw;
+  /* border: 1px solid red; */
+  /* width: 60%; */
+  padding: 0px 50px;
+  /* text-align: center; */
+}
+
+.how h1 {
+  font-size: 45px;
+  margin: auto;
+  padding-bottom: 30px;
+  color: rgb(50, 179, 76);
+}
+
+/* section-4 */
+#achieve {
+  background-color: rgb(50, 179, 76);
+  height: 300px;
+  padding-top: 30px;
+  margin-bottom: -25px;
+ 
+}
+
+#achieve div h1 {
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#achiever {
+  display: flex;
+  /* width: 70vw; */
+}
+
+.whys {
+  width: 50vw;
+  /* border: 1px solid red; */
+  padding-left: 15vw;
+  /* text-align: center; */
+}
+.whys span,
+.hows span {
+  font-weight: bolder;
+  font-size: 21px;
+  font-family: "Times New Roman", Times, serif;
+}
+.hows {
+  width: 50vw;
+  /* border: 1px solid red; */
+  /* width: 60%; */
+  padding: 0px 40px;
+  /* text-align: center; */
+}
+
+.hows h1 {
+  font-size: 45px;
+  margin: auto;
+  padding-bottom: 30px;
+  color: black;
+}
+#achi {
+  margin-left: 48vw;
+  margin-top: -90px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+/* css code   */
+.playstorebutton{
+  display: flex;
+  /* border: 2px solid red; */
+  padding: 20px 0px;
+}
+
+#footergreen {  
+  width: 100%;
+  padding-top: 25px;
+  color: white;
+  background-color: #32B14C;
+  height: 100px;
+}
+#ftin{
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  margin: auto;
+  gap: 3%;
+}
+#ftin div{
+  margin: auto;
+}
+#footermiddel{
+  background-color: #333333;
+  width: 100%;
+  height: 200px;
+  margin: auto;
+  padding-top: 25px;
+}
+#fmbottom{
+  display: grid;
+  width: 60%;
+  grid-template-columns: repeat(4, 25%);
+  justify-content: space-between;
+  margin: auto;
+  color: white;
+}
+#fmbottom a{
+  text-decoration: none;
+  color: white;
+}
+#fmmid{
+  display: grid;
+  width: 20%;
+  grid-template-columns: repeat(2, 50%);
+  justify-content: space-between;
+  margin: auto;
+  color: white;
+  padding-bottom: 25px;
+  text-align: center;
+}
+#fmsocial{
+  text-align: center;
+}
+#fmsocial img{
+  margin-right: 10px;
+  padding: 15px 0 15px 0 ;
+}
+#whitewall{
+  background-color: white;
+  height: 300px;
+  text-align: center;
+  display: grid;
+  margin-top: -30px;
+}
+#lockercircle{
+  margin-top: -30px;
+  text-align: center;
+}
+#lockercircleblue{
+  margin-top: -30px;
+  margin-bottom: -35px;
+  text-align: center;
+}
+.fatsecretlogomid{
+  padding-top: 45px;
+  margin-left: 36%;
+}
+#blackstrip {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  background-color: #111111;
+  color: white;
+  margin: auto;
+  justify-content: space-around;
+  height: 250px;
+}
+#st{
+  background-color: #32B14C;
+  color: white;
+  width: 40%;
+  padding: 10px;
+  margin-top: 90px;
+}
+#st:hover{
+  background-color: #0f7724;
+}
+.blackleft{
+  width: 30%;
+  margin: 15px auto 0 auto ;
+  padding-top: 50px;
+}
+.blackright{
+  text-align: center;
+}
+#getconnected{
+  background-color: #93ADD2;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+#gcrightimg{
+  margin-bottom: -15px;
+  margin-left: 20px;
+  width: 50%;
+  padding: 10px 10px 0px 10px;
+}
+#gcleft{
+  width: 50%;
+  margin: auto;
+}
+#fmsocial{
+  width: 15%;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  gap: 3%;
+  margin: auto;
+  justify-content: space-between;
+}
+#gcinner{
+  margin: auto;
+}
+
+@media only screen and (min-width: 421px) and (max-width: 720px) {
+  #allGreen{
+    margin-left: 48vw;
+    margin-top: 141px;
+  }
+  #ftin{
+      grid-template-columns: repeat(1, 100%);
+      text-align: center;
+  }
+  #blackstrip{
+      grid-template-columns: repeat(1, 100%);
+      justify-content: center;
+      text-align: center;
+      height: 400px;
+  }
+  .fatsecretlogomid{
+      width: 80%;
+  }
+  #fmsocial{
+      grid-template-columns: repeat(1, 100%);
+  }
+  #fmmid{
+      width: 80%;
+      grid-template-columns: repeat(1, 100%);
+  }
+  #footermiddel{
+      height: 400px;
+  }
+  #fmbottom{
+      grid-template-columns: repeat(1, 100%);
+      text-align: center  ;
+  }
+  #st{
+      margin-top: 0px;
+  }
+  #getconnected{
+      grid-template-columns: repeat(1, 100%);
+  }
+  #gcrightimg{
+      margin-bottom: 10px;
+      margin-left: 0px;
+      width: 50%;
+      padding:0px;
+      justify-content: space-around;
+  }
+}
+
+@media only screen and (min-width:720px) and (max-width:1024px){
+  #fatLock{
+    height: 50px ;
+  }
+  #firstLock {
+    margin-left: 31vw;
+    margin-bottom: -18vh;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+  #details h1 {
+    color: white;
+    font-size: 35px;
+    width: 100vw;
+  }
+  #details p {
+    font-size: 20px;
+    width: 100vw;
+  }
+  #lock {
+    text-align: center;
+    margin-top: 44px;
+  }
+
+  #Works {
+    background-color: white;
+    height: 300px;
+    padding-top: 30px;
+    display: flex;
+  }
+  
+  .why {
+    width: 50vw;
+    padding-left: 10vw;
+  }
+  .why h1 {
+    font-size: 35px;
+    padding-bottom: 20px;
+  }
+  .why p {
+    font-size: 25px;
+    margin: auto;
+  }
+  .how {
+    padding: 0px 30px;
+    /* text-align: center; */
+  }
+  .how h1 {
+    font-size: 35px;
+    padding-bottom: 20px;
+    color: rgb(50, 179, 76);
+  }
+
+
+  /* achiever */
+  #achieve {
+    background-color: rgb(50, 179, 76);
+    height: 400px;
+    padding-top: 30px;
+   
+  }
+}
+@media only screen and (min-width:630px) and (max-width:720px) {
+  #fatLock{
+    height: 45px ;
+  }
+  #firstLock {
+    margin-left: 33vw;
+    margin-bottom: -36vh;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+
+  #details h1 {
+    color: white;
+    font-size: 35px;
+    width: 100vw;
+  }
+  #details p {
+    font-size: 20px;
+    width: 100vw;
+    padding: 0px 20px;
+  }
+  #lock {
+    text-align: center;
+    margin-top: 18px;
+  }
+
+  #Works {
+    background-color: white;
+    height: 350px;
+    padding-top: 30px;
+    display: flex;
+  }
+  
+  .why {
+    width: 50vw;
+    padding-left: 10vw;
+  }
+  .why h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .why p {
+    font-size: 25px;
+    margin: auto;
+  }
+  .how {
+    padding: 0px 30px;
+    /* text-align: center; */
+  }
+  .how h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: rgb(50, 179, 76);
+  }
+  /* achiever */
+  #achieve {
+    background-color: rgb(50, 179, 76);
+    height: 500px;
+    padding-top: 30px;
+  }
+}
+
+  @media only screen and (min-width:400px) and (max-width:629px) {
+    #fatLock{
+      height: 40px ;
+    }
+    #firstLock {
+      margin-left: 29vw;
+      margin-bottom: -17vh;
+      border-radius: 50%;
+    }
+  
+    #details h1 {
+      color: white;
+      font-size: 25px;
+      width: 100vw;
+    }
+    #details p {
+      font-size: 16px;
+      width: 100vw;
+      padding: 0px 10px;
+    }
+    #lock {
+      text-align: center;
+      margin-top: 17px;
+    }
+  
+    #Works {
+      background-color: white;
+      height: 500px;
+      padding-top: 30px;
+      display: flex;
+    }
+    
+    .why {
+      width: 50vw;
+      padding-left: 10vw;
+    }
+    .why h1 {
+      font-size: 30px;
+      padding-bottom: 20px;
+    }
+    .why p {
+      font-size: 20px;
+      margin: auto;
+    }
+    .how {
+      padding: 0px 30px;
+      /* text-align: center; */
+    }
+    .how h1 {
+      font-size: 25px;
+      padding-bottom: 20px;
+      color: rgb(50, 179, 76);
+    }
+    /* achiever */
+    #achieve {
+      background-color: rgb(50, 179, 76);
+      height: 600px;
+      padding-top: 30px;
+    }
+        .whys span,
+    .hows span {
+      font-weight: bolder;
+      font-size: 18px;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+  }
+
+  @media only screen and (min-width: 421px) and (max-width: 720px) {
+    /* rajtilak  */
+    #fatLock{
+      height: 40px ;
+    }
+    #firstLock {
+      margin-left: 29vw;
+      margin-bottom: -41vh;
+      border-radius: 50%;
+    }
+  
+    #details h1 {
+      color: white;
+      font-size: 25px;
+      width: 100vw;
+    }
+    #details p {
+      font-size: 16px;
+      width: 100vw;
+      padding: 0px 10px;
+    }
+    #lock {
+      text-align: center;
+      margin-top: 36px;
+    }
+  
+    #Works {
+      background-color: white;
+      height: 430px;
+      padding-top: 30px;
+      display: flex;
+    }
+    
+    .why {
+      width: 50vw;
+      padding-left: 10vw;
+    }
+    .why h1 {
+      font-size: 30px;
+      padding-bottom: 20px;
+    }
+    .why p {
+      font-size: 20px;
+      margin: auto;
+    }
+    .how {
+      padding: 0px 30px;
+      /* text-align: center; */
+    }
+    .how h1 {
+      font-size: 25px;
+      padding-bottom: 20px;
+      color: rgb(50, 179, 76);
+    }
+    /* achiever */
+    #achieve {
+      background-color: rgb(50, 179, 76);
+      height: 500px;
+      padding-top: 30px;
+    }
+        .whys span,
+    .hows span {
+      font-weight: bolder;
+      font-size: 18px;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    /* yugal */
+    #ftin{
+        grid-template-columns: repeat(1, 100%);
+        text-align: center;
+    }
+    #blackstrip{
+        grid-template-columns: repeat(1, 100%);
+        justify-content: center;
+        text-align: center;
+        height: 400px;
+    }
+    .fatsecretlogomid{
+        width: 58%;
+        margin: auto;
+    }
+    #fmsocial{
+        grid-template-columns: repeat(1, 100%);
+    }
+    #fmmid{
+        width: 80%;
+        grid-template-columns: repeat(1, 100%);
+    }
+    #footermiddel{
+        height: 400px;
+    }
+    #fmbottom{
+        grid-template-columns: repeat(1, 100%);
+        text-align: center  ;
+    }
+    #st{
+        margin-top: 0px;
+    }
+    #getconnected{
+        grid-template-columns: repeat(1, 100%);
+    }
+    #gcrightimg{
+        margin-bottom: 36px;
+        margin-left: 151px;
+        width: 50%;
+        padding:0px;
+        justify-content: space-around;
+    }
+}
+/* small screens */
+@media only screen and (min-width: 0px) and (max-width: 420px) {
+ 
+   /* rajtilak  */
+   #fatLock{
+    height: 40px ;
+  }
+  #firstLock {
+    margin-left: 29vw;
+    margin-bottom: -21vh;
+    border-radius: 50%;
+  }
+
+  #details h1 {
+    color: white;
+    font-size: 25px;
+    width: 100vw;
+  }
+  #details p {
+    font-size: 16px;
+    width: 100vw;
+    padding: 0px 10px;
+  }
+  #lock {
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  #Works {
+    background-color: white;
+    height: 500px;
+    padding-top: 30px;
+    display: flex;
+  }
+  
+  .why {
+    width: 50vw;
+    padding-left: 10vw;
+  }
+  .why h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .why p {
+    font-size: 20px;
+    margin: auto;
+  }
+  .how {
+    padding: 0px 30px;
+    /* text-align: center; */
+  }
+  .how h1 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: rgb(50, 179, 76);
+  }
+  /* achiever */
+  #achieve {
+    background-color: rgb(50, 179, 76);
+    height: 600px;
+    padding-top: 30px;
+  }
+  .whys span,
+  .hows span {
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+
+#ftin{
+        grid-template-columns: repeat(1, 100%);
+        text-align: center;
+    }
+#blackstrip{
+        grid-template-columns: repeat(1, 100%);
+        justify-content: center;
+        text-align: center;
+        height: 550px;
+    }
+#footergreen{
+    height: 150px;
+}
+.fatsecretlogomid{
+    width: 58%;
+    margin: auto;
+}
+#fmsocial{
+    grid-template-columns: repeat(1, 100%);
+}
+#footermiddel{
+    height: 430px;
+}
+#fmmid{
+    grid-template-columns: repeat(1, 100%);
+    text-align: center;
+}
+#fmbottom{
+    grid-template-columns: repeat(1, 100%);
+    text-align: center;
+}
+#blackstrip{
+    height: 400px;
+}
+#st{
+    margin-top: 0px;
+}
+#getconnected{
+    grid-template-columns: repeat(1, 100%);
+}
+#gcrightimg{
+    margin-bottom: 37px;
+    margin-left: 88px;
+    width: 50%;
+    padding:0px;
+    justify-content: space-around;
+}
+}
