@@ -1,0 +1,590 @@
+#main_parent{
+    width: 90%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    margin-top: 150px;
+    height: 150px;
+}
+
+#leftparent{
+    /* width: 62%; */
+    width: 67%;
+    /* border: 2px solid purple; */
+
+}
+
+#homelogo{
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#homelogo > p > a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #85c2da;
+}
+
+
+
+#toprecepiediv{
+    width: 100%;
+    border: 5px solid #5fb34d;
+    height: 85vh;
+
+}
+
+/*---------------------------------left parent css starts----------------------------------- */
+
+#toprecepiedivupper{
+    display: flex;
+    align-items: center;
+    height: 110px;
+}
+
+#toprecepiedivupper > div img{
+    width: 80px;
+    height: 90px;
+    /* margin-top: 20px; */
+}
+
+
+#toprecepiedivupper > div h1{
+    color: rgb(78, 76, 76);
+}
+
+#toprecepiedivupper > div{
+    margin-left: 25px;
+}
+
+#toprecepiedivupper > div p{
+    margin-top: -12px;
+    color: rgb(70, 69, 69);
+}
+
+#toprecepiedivlower{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#toprecepiedivlower > div:nth-child(1){
+    border: 1px solid rgb(214, 213, 213);
+    width: 35%;
+    height: 370px;
+    margin-left: 20px;
+}
+
+
+#toprecepiedivlower > div:nth-child(1) > h3{
+    margin-left: 15px;
+    margin-top: 10px;
+    color: rgb(87, 86, 86);
+}
+
+#lowp{
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+#lowp + img{
+    width: 96%;
+    display: flex;
+    margin: auto;
+    height: 150px;
+}
+
+#freshpeasoup a{
+    text-decoration: none;
+    color: #028cc4;
+}
+
+#freshpeasoup + p{
+    margin-top: -10px;
+    font-size: 15px;
+    width: 96%;
+    margin-left: 10px;
+}
+
+#freshpeasoup + p + img{
+    margin-top: -12px;
+    margin-left: 10px;
+}
+
+#viewmorelowcholesterol a{
+    text-decoration: none;
+    color: #028cc4;
+    margin-left: 12%;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+
+#viewmorelowcholesterol{
+    margin-top: 0px;
+}
+
+
+#toprecepiedivlower > div:nth-child(2){
+    /* border: 1px solid rgb(121, 120, 120); */
+    width: 58%;
+    height: 300px;
+    margin-left: 20px;
+}
+
+#toprecepiedivlower > div:nth-child(2) > div{
+    height: 90px;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+    display: flex;
+}
+
+#toprecepiedivlower > div:nth-child(2) > div > div:nth-child(1) > img{
+    height: 90px;
+}
+
+#toprecepiedivlower > div:nth-child(2) > div > div > h3 > a{
+    color: #028cc4;
+    text-decoration: none;
+    
+}
+
+#toprecepiedivlower > div:nth-child(2) > div > div > h3{
+    margin-left: 10px;
+    margin-top: 0px;
+    height: 25px;
+    /* border: 2px solid red; */
+}
+
+#toprecepiedivlower > div:nth-child(2) > div > div > p{
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+#toprecepiedivlower > div:nth-child(2) > div > div:nth-child(2) > img{
+    margin-left: 10px;
+    display: flex;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+#popular_recipes{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+}
+
+#popular_recipes > div{
+    width: 100%;
+    height: 85px;
+    /* border: 2px solid green; */
+    border-bottom: 1px solid rgb(230, 230, 230);
+    
+    display: flex;
+    align-items: center;
+}
+
+#popular_recipes > div > div:nth-child(1){
+
+}
+
+
+#popular_recipes > div > div:nth-child(1) > img{
+    height: 60px;
+    width: 60px;
+}
+
+
+#popular_recipes > div > div:nth-child(2){
+    
+}
+
+#popular_recipes > div > div:nth-child(2) > p{
+    width: 350px;
+    /* height: 5px; */
+    margin-left: 10px;
+    margin-top: -20px;
+    font-size: 15px;
+}
+
+#popular_recipes > div > div:nth-child(2) > h4 > a{
+    text-decoration: none;
+    color: #028cc4;
+}
+
+#popular_recipes > div > div:nth-child(2) > h4{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#popular_recipes > div > div:nth-child(2) > img{
+    display: flex;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+#popular_recipes > div > div:nth-child(3){
+   
+}
+
+#popular_recipes > div > div:nth-child(3) > p{
+   font-size: 14px;
+}
+
+#popular_recipes > div > div:nth-child(3) > p:nth-child(1){
+    text-align: right;
+    margin-top: 48px;
+    margin-bottom: -10px;
+}
+
+#popular_recipes > div > div:nth-child(3) > p:nth-child(1) > a{
+    color: #028cc4;
+    text-decoration: none;
+    
+}
+
+#popular_recipes > div > div:nth-child(3) > p:nth-child(2){
+   color: gray;
+   font-size: 12px;
+}
+/*---------------------------------left parent css Ends----------------------------------- */
+
+
+/*---------------------------------right parent css Starts----------------------------------- */
+
+
+
+#rightparent{
+    width: 30%;
+    /* border: 2px solid green; */
+    margin-top: 20px;
+    height: 1000px;
+}
+
+#searchdiv > label{
+    font-size: 13px;
+}
+
+#searchdiv{
+    width: 100%;
+    background-color: #edf1e9;
+    height: 110px;
+    
+    border: 1px solid white;
+}
+
+#foodsearch{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#searchdiv > div{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    /* margin-left: 15%; */
+}
+
+#searchbox{
+    width: 80%;
+    padding: 2px;
+}
+
+#searchbutton{
+    background-color: #028cc4;
+    color: white;
+    border: none;
+    height: 25px;
+    width: 35px;
+}
+
+
+
+#advertisementdiv{
+    margin-top: 25px;
+}
+
+#advertisementdiv img{
+    width: 100%;
+    height: 280px;
+}
+
+#browserecipesdeeper{
+    margin-top: 25px;
+    /* height: 1000px; */
+    width: 100%;
+    border: 1px solid #edf1e9;
+    background-color: #edf1e9;
+}
+
+#browserecipesdeeper hr{
+    border: 1px solid rgb(220, 220, 220);
+}
+
+#br{
+    margin-left: 25px;
+}
+
+#recdiv{
+    width: 95%;
+    margin: auto;
+    background-color: #33b34b;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 30px;
+}
+
+#recdiv img{
+    height: 28px;
+    width: 28px;
+    margin-left: 25px;
+}
+
+
+
+#metype{
+    color: black;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+
+
+#mealtypediv p{
+    background-repeat: no-repeat;
+    margin-left: 25px;
+    vertical-align: top;
+    display: flex;
+    color: #028cc4;
+}
+
+#mealtypediv p:hover{
+    cursor: pointer;
+    background-color: #ddead1;
+
+}
+
+#foo{
+    color: black;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+#foodsandingreidents p{
+    background-repeat: no-repeat;
+    margin-left: 25px;
+    vertical-align: top;
+    display: flex;
+    color: #028cc4;
+
+}
+
+#foodsandingreidents p:hover{
+    cursor: pointer;
+    background-color: #ddead1;
+
+}
+
+#di{
+    color: black;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+
+#dietandnutrition p{
+    background-repeat: no-repeat;
+    margin-left: 25px;
+    vertical-align: top;
+    display: flex;
+    color: #028cc4;
+}
+
+#dietandnutrition p:hover{
+    cursor: pointer;
+    background-color: #ddead1;
+
+}
+
+
+
+
+
+#sharereceipe{
+    margin-top: 25px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #028cc4;
+    display: flex;
+    
+}
+
+#mycookbook{
+    background-color: #fcf3e5;
+    width: 100%;
+    /* height: 200px; */
+    border: 1px solid #fcf3e5;
+}
+
+#my{
+    display: flex;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+#published{
+    margin-left: 10px; 
+    font-size: 14px;
+    margin-bottom: -10px;
+}
+
+#published a{
+    text-decoration: none;
+    color: #028cc4;
+}
+
+#recently1{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+#noentries{
+    margin-left: 10px; 
+    font-size: 14px;
+}
+
+#noentries a{
+    text-decoration: none;
+    color: #028cc4;
+}
+
+
+
+
+
+
+
+/*---------------------------------right parent css Ends----------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------Footer Section Starts-------------------------------------------------- */
+
+
+
+ 
+  
+  /* css code   */
+
+  #footergreen {  
+    width: 100%;
+    padding-top: 25px;
+    color: white;
+    background-color: #32B14C;
+    height: 100px;
+  }
+
+  
+  
+
+#fmmid{
+    display: grid;
+    width: 20%;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: space-between;
+    margin: auto;
+    color: white;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+  
+  #ftin{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    margin: auto;
+    /* gap: 3%; */
+  }
+  #ftin div{
+    margin: auto;
+  }
+  #footermiddel{
+    background-color: #333333;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    padding-top: 25px;
+    margin-top: -120px;
+    
+   
+  }
+  #fmbottom{
+    display: grid;
+    width: 60%;
+    grid-template-columns: repeat(4, 25%);
+    justify-content: space-between;
+    margin: auto;
+    color: white;
+  }
+  #fmbottom a{
+    text-decoration: none;
+    color: white;
+  }
+ 
+  #fmsocial{
+    text-align: center;
+  }
+  #fmsocial img{
+    margin-right: 10px;
+    padding: 15px 0 15px 0 ;
+  }
+  #whitewall{
+    background-color: white;
+    height: 300px;
+    text-align: center;
+    display: grid;
+    margin-top: 2800px;
+  }
+
+ 
+
+  #playstorebuttons{
+    margin-top: -100px;
+
+  }
+
+ /* -------------------------------------Footer Section Ends-------------------------------------------------- */
+  
+ 
+  
