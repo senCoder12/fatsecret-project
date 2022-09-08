@@ -16,6 +16,7 @@
 
 }
 
+
 #homelogo{
     height: 20px;
     display: flex;
@@ -32,59 +33,80 @@
 
 #toprecepiediv{
     width: 100%;
-    border: 5px solid #5fb34d;
-    height: 85vh;
-    /* height: 500px; */
+    /* border: 5px solid #5fb34d; */
+    border: 1px solid rgb(196, 199, 196);
 
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#recepiehead{
+    /* margin-bottom: 0px; */
+}
+
+#recepiesearch{
+    width: 80%;
+    /* border: 2px solid rebeccapurple; */
+}
+
+#recepiesearch label{
+    font-weight: bolder;
+    margin-right: 35px;
+}
+
+#recepiesearch hr{
+    border-top: 1px dashed rgb(59, 188, 59);
+    margin-bottom: -2px;
+}
+
+#mealtype{
+    width: 83%;
+    
+}
+
+#topsearchbar{
+    width: 82%;
+}
+
+#topsearchbutton{
+    display: flex;
+    margin-left: 85%;
+    color: white;
+    background-color: #028cc4;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#topsearchbutton:hover{
+    background-color: #05688f;
+}
+
+#pages{
+    background-color: #edf1e9;
+    height: 30px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+
+}
+
+#pages p{
+    margin-right: 15px;
+    font-size: 15px;
 }
 
 /*---------------------------------left parent css starts----------------------------------- */
 
-#toprecepiedivupper{
-    display: flex;
-    align-items: center;
-    height: 110px;
-}
-
-#toprecepiedivupper > div img{
-    width: 80px;
-    height: 90px;
-    /* margin-top: 20px; */
-}
 
 
-#toprecepiedivupper > div h1{
-    color: rgb(78, 76, 76);
-}
-
-#toprecepiedivupper > div{
-    margin-left: 25px;
-}
-
-#toprecepiedivupper > div p{
-    margin-top: -12px;
-    color: rgb(70, 69, 69);
-}
-
-#toprecepiedivlower{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-#toprecepiedivlower > div:nth-child(1){
-    border: 1px solid rgb(214, 213, 213);
-    width: 35%;
-    height: 370px;
-    margin-left: 20px;
-}
-
-
-#toprecepiedivlower > div:nth-child(1) > h3{
-    margin-left: 15px;
-    margin-top: 10px;
-    color: rgb(87, 86, 86);
-}
 
 #lowp{
     font-weight: bold;
@@ -128,56 +150,6 @@
 #viewmorelowcholesterol{
     margin-top: 0px;
 }
-
-
-#toprecepiedivlower > div:nth-child(2){
-    /* border: 1px solid rgb(121, 120, 120); */
-    width: 58%;
-    height: 300px;
-    margin-left: 20px;
-}
-
-#toprecepiedivlower > div:nth-child(2) > div{
-    height: 90px;
-    width: 100%;
-    /* border: 1px solid red; */
-    margin-bottom: 10px;
-    display: flex;
-}
-
-#toprecepiedivlower > div:nth-child(2) > div > div:nth-child(1) > img{
-    height: 90px;
-}
-
-#toprecepiedivlower > div:nth-child(2) > div > div > h3 > a{
-    color: #028cc4;
-    text-decoration: none;
-    
-}
-
-#toprecepiedivlower > div:nth-child(2) > div > div > h3{
-    margin-left: 10px;
-    margin-top: 0px;
-    height: 25px;
-    /* border: 2px solid red; */
-}
-
-#toprecepiedivlower > div:nth-child(2) > div > div > p{
-    margin-left: 10px;
-    font-size: 15px;
-    margin-top: -15px;
-}
-
-#toprecepiedivlower > div:nth-child(2) > div > div:nth-child(2) > img{
-    margin-left: 10px;
-    display: flex;
-    margin-top: -10px;
-}
-
-
-
-
-
 
 #popular_recipes{
     /* border: 2px solid red; */
@@ -259,6 +231,9 @@
    color: gray;
    font-size: 12px;
 }
+
+
+
 /*---------------------------------left parent css Ends----------------------------------- */
 
 
@@ -281,7 +256,7 @@
     width: 100%;
     background-color: #edf1e9;
     height: 110px;
-    
+    margin-top: 25px;
     border: 1px solid white;
 }
 
@@ -322,42 +297,17 @@
 }
 
 #browserecipesdeeper{
-    margin-top: 25px;
+    
     /* height: 1000px; */
     width: 100%;
     border: 1px solid #edf1e9;
     background-color: #edf1e9;
 }
 
-#browserecipesdeeper hr{
-    border: 1px solid rgb(220, 220, 220);
-}
-
-#br{
-    margin-left: 25px;
-}
-
-#recdiv{
-    width: 95%;
-    margin: auto;
-    background-color: #33b34b;
-    color: white;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    height: 30px;
-}
-
-#recdiv img{
-    height: 28px;
-    width: 28px;
-    margin-left: 25px;
-}
-
-
 
 #metype{
     color: black;
+    font-weight: bold;
     font-size: 15px;
     margin-left: 25px;
 }
@@ -370,7 +320,9 @@
     vertical-align: top;
     display: flex;
     color: #028cc4;
+    width: 90%;
 }
+
 
 #mealtypediv p:hover{
     cursor: pointer;
@@ -575,7 +527,8 @@
     height: 300px;
     text-align: center;
     display: grid;
-    margin-top: 2800px;
+    margin-top: 2400px;                      
+    /* ------------------------------------------------ */
   }
 
  

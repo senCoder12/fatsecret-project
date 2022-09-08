@@ -1,5 +1,6 @@
 
 
+
 function append(data){
     let popular_recipes = document.getElementById("popular_recipes");
 
@@ -56,47 +57,49 @@ function append(data){
 }
 
 recipeFetch();
-
 async function recipeFetch(){
-    let res = await fetch('https://www.themealdb.com/api/json/v1/1/search.php?s= ');
+    let val = JSON.parse(localStorage.getItem("searchedvalue")) || "";
+    let res = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${val}`);
     let res1 = await res.json();
+    // console.log(res1);
     let data = res1.meals;
     // console.log(data);
     append(data);
 }
 
-document.getElementById("recipe").checked = true;
 
-document.getElementById("recipe").addEventListener("click", ()=>{
-    document.getElementById("food").checked = false;
-    document.getElementById("meal").checked = false;
-})
 
-document.getElementById("meal").addEventListener("click", ()=>{
-    document.getElementById("food").checked = false;
-    document.getElementById("recipe").checked = false;
-})
 
-document.getElementById("food").addEventListener("click", ()=>{
-    document.getElementById("meal").checked = false;
-    document.getElementById("recipe").checked = false;
-})
+
+
+
+
+
+
+
+
 
 
 
 document.getElementById("searchbutton").addEventListener("click", ()=>{
-    let url;
-
-    if(document.getElementById("recipe").checked){
+    
         let val = document.getElementById("searchbox").value;
         localStorage.setItem("searchedvalue", JSON.stringify(val));
         location.href = "./searchedrecepies.html";
-        // url = "../searched recepies/searchedrecepies.html";
-    }else if(document.getElementById("meal").checked){
-        url = "./meallist.html";
-    }else if(document.getElementById("food").checked){
-        url = "./foodlist.html";
-    }
+})
+
+
+
+
+
+
+
+
+document.getElementById("topsearchbutton").addEventListener("click", ()=>{
+    
+        let val = document.getElementById("topsearchbar").value;
+        localStorage.setItem("searchedvalue", JSON.stringify(val));
+        location.href = "./searchedrecepies.html";
 
     // console.log(url);
 })
