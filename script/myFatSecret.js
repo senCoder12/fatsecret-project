@@ -4,12 +4,18 @@ const fetchData = async () => {
     displayData(result);
 }
 
+let days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+let day = new Date().getDay();
+day = days[day];
+day = day.split("")[0]+day.split("")[1]+day.split("")[2];
+document.getElementById("dayExact").innerText = day.toUpperCase();
+
 let displayData = (data) => {
     data.map((elm, i) => {
         let div = document.createElement("div");
         div.setAttribute("class", "border");
         div.innerHTML = `
-        <div class="feed">
+        <div class="feed feed${i}">
             <div id="profile_pic">
                 <img src="${elm.profile_pic}" alt="" style="width:60px; height:60px;">
             </div>
@@ -71,6 +77,11 @@ let displayData = (data) => {
         document.querySelector(`.cancel${i}`).addEventListener("click",() =>{
             document.querySelector(`.fotter${i}`).style.display = "none";
         })
+        document.querySelector(`.feed${i}`).addEventListener("click",() =>{
+            localStorage.setItem("id",elm.id);
+            location.href = "./feed.html";
+        });
+        
     })
 }
 fetchData();
