@@ -1,3 +1,35 @@
+#middletext ul{
+    font-family: Helvetica, Arial;
+    font-size:16px;
+}
+
+#middletext ul+p{
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: gray;
+}
+
+#middletext h4{
+    font-family: Helvetica, Arial;
+    font-size:16px;
+}
+
+#middletext h3{
+    font-family: Helvetica, Arial;
+    font-size:16px;
+}
+
+#middletext h3+p{
+    font-family: Helvetica, Arial;
+    font-size:16px;
+}
+
+#middletext h4+p{
+    font-family: Helvetica, Arial;
+    font-size: 16px;
+}
+
+
 #main_terms{
     width: 65%;
     /* height: 70vh; */
@@ -40,6 +72,7 @@
 #privacypolicy a{
     text-decoration: none;
     color: rgb(0, 132, 255);
+    font-size: 14px;
 }
 
 #bottombuttons{
@@ -59,9 +92,11 @@
 #agree{
     background-color: rgb(32, 172, 32);
     color: white;
+    font-size: 16px;
 }
 
 #noagree{
-    color: rgb(0, 132, 255);;
+    color: rgb(0, 132, 255);
+    font-size: 16px;
 }
 
