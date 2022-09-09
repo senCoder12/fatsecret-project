@@ -74,7 +74,6 @@ async function recipeFetch(){
 document.getElementById("searchbutton").addEventListener("click", searchData)
 
 
-<<<<<<< HEAD
 
 
 
@@ -86,22 +85,17 @@ document.getElementById("searchbutton").addEventListener("click", searchData)
 document.getElementById("searchbutton").addEventListener("click", searchData)
 
 
-=======
->>>>>>> abb704e3f72118917a7249932369b292ebf0486e
 function searchData(){
     let val = document.getElementById("searchbox").value;
     localStorage.setItem("searchedvalue", JSON.stringify(val));
     location.href = "./searchedrecepies.html";
 }
-<<<<<<< HEAD
 
 
 
 
 
 
-=======
->>>>>>> abb704e3f72118917a7249932369b292ebf0486e
 
 
 
@@ -117,7 +111,6 @@ document.getElementById("topsearchbutton").addEventListener("click", ()=>{
 
 
 
-<<<<<<< HEAD
 
 
 
@@ -127,8 +120,6 @@ document.getElementById("topsearchbutton").addEventListener("click", ()=>{
 
 
 
-=======
->>>>>>> abb704e3f72118917a7249932369b292ebf0486e
 // debouncing in search bar code-------------------------
 let id;
 function debounce(){
