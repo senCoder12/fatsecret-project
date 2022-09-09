@@ -35,8 +35,14 @@
     width: 100%;
     /* border: 5px solid #5fb34d; */
     border: 1px solid rgb(196, 199, 196);
+<<<<<<< HEAD
     padding-bottom: 10px;
     /* height: 200px; */
+=======
+
+    /* height: 200px; */
+    padding: 10px;
+>>>>>>> abb704e3f72118917a7249932369b292ebf0486e
     display: flex;
     align-items: center;
     justify-content: center;

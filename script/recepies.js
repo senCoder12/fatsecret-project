@@ -19,7 +19,7 @@ function append(data){
             localStorage.setItem("clickedrecipe", JSON.stringify(elem));
         })
         let anchor = document.createElement("a");
-        anchor.href = "";
+        anchor.href = "./detailedrecipe.html";
         anchor.innerText = elem.strMeal;
         name.append(anchor);
         let pdesc = document.createElement("p");
@@ -61,7 +61,6 @@ async function recipeFetch(){
     let res = await fetch('https://www.themealdb.com/api/json/v1/1/search.php?s= ');
     let res1 = await res.json();
     let data = res1.meals;
-    // console.log(data);
     append(data);
 }
 
