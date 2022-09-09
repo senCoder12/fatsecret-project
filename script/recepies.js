@@ -19,7 +19,7 @@ function append(data){
             localStorage.setItem("clickedrecipe", JSON.stringify(elem));
         })
         let anchor = document.createElement("a");
-        anchor.href = "";
+        anchor.href = "./detailedrecipe.html";
         anchor.innerText = elem.strMeal;
         name.append(anchor);
         let pdesc = document.createElement("p");
