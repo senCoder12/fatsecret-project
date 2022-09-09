@@ -61,7 +61,6 @@ async function recipeFetch(){
     let res = await fetch('https://www.themealdb.com/api/json/v1/1/search.php?s= ');
     let res1 = await res.json();
     let data = res1.meals;
-    // console.log(data);
     append(data);
 }
 

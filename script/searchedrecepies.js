@@ -71,16 +71,6 @@ async function recipeFetch(){
 
 
 
-
-
-
-
-
-
-
-
-
-
 document.getElementById("searchbutton").addEventListener("click", searchData)
 
 
@@ -92,12 +82,6 @@ function searchData(){
 
 
 
-
-
-
-
-
-
 document.getElementById("topsearchbutton").addEventListener("click", ()=>{
     
         let val = document.getElementById("topsearchbar").value;
@@ -106,15 +90,6 @@ document.getElementById("topsearchbutton").addEventListener("click", ()=>{
 
     // console.log(url);
 })
-
-
-
-
-
-
-
-
-
 
 
 
