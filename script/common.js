@@ -33,3 +33,47 @@ export  const myfooter = `
 </div>
 
 `
+
+
+
+// <div id="navbar"></div>
+
+export const mynavbar = `
+
+<div id="topnavbar">
+    <!-- <div> -->
+        <p>
+            Hello <span id="name">Gaurav sapkal</span>  |  My Weight: <span id="weight">80</span> kg, 5 days ago  |  4 unread notifications  |  <span id="signout">Sign Out</span>
+        </p>
+    <!-- </div> -->
+</div>
+
+
+
+<div id="middlenavbar">
+
+    
+
+    <img id="mainlogo" src="https://a.ftscrt.com/static/images/def20/Fatsecret_logo.png" alt="">
+    <p id="india">INDIA</p>
+    <div id="searchbar">
+        <button id="recbutton"><img src="https://static.fatsecret.com/static/images/def20/quicksearch/search_foods.png" alt=""></button>
+        <input type="text" id="mastersearch" placeholder="Enter search">
+        <button id="mastersearchbutton"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+</div>
+
+
+
+<div id="bottomnavbar">
+
+<div id="optionsfornav">
+<div><a href="./myFatSecretPage.html">MY FATSECRET</a></div>
+<div><a href="./food.html">FOODS</a></div>
+<div><a href="./recepies.html">RECIPES</a></div>
+<div><a href="">FITNESS</a></div>
+<div><a href="">COMMUNITY</a></div>
+</div>
+</div>
+
+`

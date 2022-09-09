@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food page</title>
+    <link rel="stylesheet" href="./style/milk.css">
+    <script src="./script/debouncing.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <style>
+    
+        #cont{
+            background-color: white;
+            width: 180px;
+            flex-direction: column;
+            position: absolute;
+            overflow-y: scroll;
+            padding: 2px 5px;
+            /* margin-left: 550px; */
+       
+        }
+        #cont h3{
+            font-size: 12px;
+        }
+        .main_div{
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid rgb(202, 186, 186);
+            cursor: pointer;
+        }
+      
+       
+    </style>
+    
+<style>
+    #browserecipesdeeper{
+    
+    /* height: 1000px; */
+    width: 20%;
+    border: 1px solid #edf1e9;
+    background-color: #edf1e9;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+
+#metype{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 25px;
+    padding: 8px;
+    width: 30%;
+}
+
+
+
+#mealtypediv p{
+    background-repeat: no-repeat;
+    margin-left: 25px;
+    vertical-align: top;
+    display: flex;
+    color: #028cc4;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+
+#mealtypediv p:hover{
+    cursor: pointer;
+    background-color: #ddead1;
+
+}
+</style>
+       
+
+    <!-- upper row -->
+    <div class="container">
+        <div id="divFlex">
+            <div id="foodDetails">
+              
+                <div id="searchdiv"> 
+                    <div> 
+                    <h3 id="foodsearch"><i>Food Search</i></h3> 
+                    <input type="text" id="searchbox" placeholder="Enter search" oninput="debounce()"> 
+                    <button id="searchbutton"><i class="fa-solid fa-magnifying-glass"></i>Search</button><br> 
+                     
+                    <div id="searchresultbox"> 
+                    
+    
+                    </div> 
+             
+                   
+     
+                     </div> 
+                  </div>
+
+
+
+            </div>
+
+<!-- 
+            <div id="foodSearch">
+                <h4>Food Search</h4>
+                <div class="data">
+                    <input type="text" oninput="getData()" id="movie" id="searchBox" placeholder="Enter a movie name">
+                    <button type="submit" id="searchBtn" >Search</button>
+                </div>
+                 <div>
+                     <input type="text" oninput="getData()" name="" id="searchBox">
+                    <button id="searchBtn" >search</button>
+                </div> -->
+                <!-- <div id="cont"> -->
+                   
+                   
+                 <!-- </div> -->
+            <!-- </div> --> 
+            <div id="browserecipesdeeper">
+
+                <p id="metype">SEARCH</p>
+
+                <div id="mealtypediv">
+                    <p id="recipetag" style="color: white; background-color: #33b34b"><img src="https://static.fatsecret.com/static/images/def20/icons/foods_b.png" alt="">  Foods</p>
+                    <p ><img src="https://static.fatsecret.com/static/images/def20/icons/recipes_b.png" alt="">  Recipes</p>
+                    <p><img src="https://static.fatsecret.com/static/images/def20/icons/exercise_b.png" alt="">  Fitness</p>
+                    <p><img src="https://static.fatsecret.com/static/images/def20/icons/members_b.png" alt="">  Members</p>
+                
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- second row -->
+    <div id="foodProduct">
+   <section id="firse-section">
+    <div id="AllData">
+        <hr>
+     <div id="flexDataDetails">
+        
+       
+        </div>    
+     </div>
+
+     <style>
+          .para p{
+            font-size: 14px;
+            font-family: 'Times New Roman', Times, serif;
+          }
+          .SecondData h3{
+            padding: 5px 0px;
+          }
+     </style>
+ 
+     <div id="secondFlex">
+        <div id="secondFlexData">
+          <div class="SecondData">
+            <div>
+                <h3>Your Food Diary</h3>
+                <div class="para">
+                    <p>Use the FatSecret food diary to track your diet. There are thousands of foods and recipes in the FatSecret database to choose from, with detailed 
+                        <br>
+                        <br>
+                           nutritional information including calories, fat and protein for each serving size.
+                        <br>
+                        <br>
+                        You may also add one of the many great recipes and food ideas submitted by our members.
+                        <br>
+                        <br>
+                        Find out how your diet compares to your friends and to other members like you!</p>
+                   
+                
+                </div>
+
+            </div>
+          </div>
+
+        
+          <div id="recently">
+            <div id="recent-flex">
+                <img src="https://a.ftscrt.com/static/images/box/activity_multiadd.gif" alt="">
+                <h4>Recent Food Diary Entries</h4>
+            </div>
+            <div>
+                <li>Athletic Brewing Co. Athletic Lite</li>
+                <li>Cheez-It Snap'd</li>
+                <li>Noodles & Company Lemon Parmesan Leanguini</li>
+                <li>Bell & Evans Organic Chicken Livers</li>
+                <li>Cookout Side of Slaw</li>
+                <li>Open Nature Mozzarella Style Shreds</li>
+                <li>Tractor Organic Lemonade</li>
+                <li>Nuts.Com Gotu Kola Powder</li>
+                <li>Terrasoul Superfoods Carob Powder</li>
+                <li>Whole Foods Market Shrimp Scampi</li>
+            </div>
+           
+          </div>
+          </div>
+        </div>
+     </div>
+    </div>
+
+  </div>
+
+</section>
+
+ 
+
+<!-- section -3 -->
+ <section id="sec-3">
+     <div>
+        <h1>Popular Food Brands</h1>
+     </div>
+     <div>
+        <p>A <span>Amy's, Altoids,</span>  A <span>Taste of Thai</span>  B <span>Bubba Burger, Bimbo, Bisquick</span> C <span>Coca-Cola, Columbus Salame, Celentano</span>  D <span> David Seeds, Designer Whey, Doritos</span> E <span>Europe's Best, El Mexicano, Ethnic Gourmet</span>  F <span>Freihofer's, Fanta, Flatout</span>  G <span> Gwaltney, Green Giant, Grimmway Farms</span>   H <span>Heluva Good, Hungry Jack, Haribo</span>  I <span>Ian's, International Delight, I Can't Believe It's Not Butter!</span>  J <span> John Morrell, Jack Link's, Jamba Juice</span> K <span>Kahiki, Kretschmar, Kraft</span>  L <span> Libby's, Larabar, Lundberg</span> M <span>Meadow Gold, Mountain Dew, Melissa'</span>  N <span> Nabisco, Nalley, Nestle F Fig Newtons, N Nissin, Nestea, Nature Valley</span>  O <span>Ocean Spray, On The Border, Omaha Steaks</span>  P <span> Progresso, Pace, Post</span> Q <span> Quorn, Quaker,</span> R <span> Ronzoni, Revival, Rice-A-Roni</span> S <span>Simply Orange, Sensible Portions, Schwebel's</span>  T <span> Tostitos, Tropicana, Tandoor Chef</span> U <span> Uncle Ben's, Utz,</span> V <span>Vlasic, Vitalicious, V8</span>  W <span>Wrigley, Walden Farms, Wholly Guacamole</span>  Y <span>Yakult, Yves Veggies, Yoplait</span>  Z <span>Zone Perfect, Zatarain's,</span>  ...</p>
+     </div>
+     <hr>
+</section> 
+
+<!-- section-4 -->
+ <section id="sec-4">
+     <div>
+        <h1>Restaurants & Chains</h1>
+     </div>
+     <div>
+        <p>A <span>Amy's, Altoids,</span>  A <span>Taste of Thai</span>  B <span>Bubba Burger, Bimbo, Bisquick</span> C <span>Coca-Cola, Columbus Salame, Celentano</span>  D <span> David Seeds, Designer Whey, Doritos</span> E <span>Europe's Best, El Mexicano, Ethnic Gourmet</span>  F <span>Freihofer's, Fanta, Flatout</span>  G <span> Gwaltney, Green Giant, Grimmway Farms</span>   H <span>Heluva Good, Hungry Jack, Haribo</span>  I <span>Ian's, International Delight, I Can't Believe It's Not Butter!</span>  J <span> John Morrell, Jack Link's, Jamba Juice</span> K <span>Kahiki, Kretschmar, Kraft</span>  L <span> Libby's, Larabar, Lundberg</span> M <span>Meadow Gold, Mountain Dew, Melissa'</span>  N <span> Nabisco, Nalley, Nestle F Fig Newtons, N Nissin, Nestea, Nature Valley</span>  O <span>Ocean Spray, On The Border, Omaha Steaks</span>  P <span> Progresso, Pace, Post</span> Q <span> Quorn, Quaker,</span> R <span> Ronzoni, Revival, Rice-A-Roni</span> S <span>Simply Orange, Sensible Portions, Schwebel's</span>  T <span> Tostitos, Tropicana, Tandoor Chef</span> U <span> Uncle Ben's, Utz,</span> V <span>Vlasic, Vitalicious, V8</span>  W <span>Wrigley, Walden Farms, Wholly Guacamole</span>  Y <span>Yakult, Yves Veggies, Yoplait</span>  Z <span>Zone Perfect, Zatarain's,</span>  ...</p>
+     </div>
+     <hr>
+</section> 
+
+
+<!-- section-5 -->
+ <section id="sec-5">
+     <div>
+        <h1>Supermarkets</h1>
+     </div>
+     <div>
+        <p>A <span>Amy's, Altoids,</span>  A <span>Taste of Thai</span>  B <span>Bubba Burger, Bimbo, Bisquick</span> C <span>Coca-Cola, Columbus Salame, Celentano</span>  D <span> David Seeds, Designer Whey, Doritos</span> E <span>Europe's Best, El Mexicano, Ethnic Gourmet</span>  F <span>Freihofer's, Fanta, Flatout</span>  G <span> Gwaltney, Green Giant, Grimmway Farms</span>   H <span>Heluva Good, Hungry Jack, Haribo</span>  I <span>Ian's, International Delight, I Can't Believe It's Not Butter!</span>  J <span> John Morrell, Jack Link's, Jamba Juice</span> K <span>Kahiki, Kretschmar, Kraft</span>  L <span> Libby's, Larabar, Lundberg</span> M <span>Meadow Gold, Mountain Dew, Melissa'</span>  N <span> Nabisco, Nalley, Nestle F Fig Newtons, N Nissin, Nestea, Nature Valley</span>  O <span>Ocean Spray, On The Border, Omaha Steaks</span>  P <span> Progresso, Pace, Post</span> Q <span> Quorn, Quaker,</span> R <span> Ronzoni, Revival, Rice-A-Roni</span> S <span>Simply Orange, Sensible Portions, Schwebel's</span>  T <span> Tostitos, Tropicana, Tandoor Chef</span> U <span> Uncle Ben's, Utz,</span> V <span>Vlasic, Vitalicious, V8</span>  W <span>Wrigley, Walden Farms, Wholly Guacamole</span>  Y <span>Yakult, Yves Veggies, Yoplait</span>  Z <span>Zone Perfect, Zatarain's,</span>  ...</p>
+     </div>
+</section> 
+
+<style>
+
+</style>
+<!-- footer part -->
+
+<div id="whitewall">
+    <p>Get the app</p>
+    <div id="playstorebuttons" >
+        <a><img src="https://a.ftscrt.com/static/images/mobi/ios/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"></a>
+        <a><img src="https://a.ftscrt.com/static/images/mobi/android/en_get_2.svg"></a>
+    </div>
+</div>
+<div id="footermiddel">
+    <div id="fmsocial">
+        <a href=""><img src="https://a.ftscrt.com/static/images/social/but_social_facebook.svg" alt="fb"></a>
+        <a href=""><img src="https://a.ftscrt.com/static/images/social/but_social_instagram.svg" alt="insta"></a>
+        <a href=""><img src="https://a.ftscrt.com/static/images/social/but_social_twitter.svg" alt="twitter"></a>
+    </div>
+    <div id="fmmid">
+        <div><a>BRAND LIST</a></div>
+        <div><a>CONTACT US</a></div>
+    </div>
+    <div id="fmbottom">
+        <div><a href="">FIND PEOPLE</a></div>
+        <div><a href="">TERMS & CONDITIONS</a></div>
+        <div><a href="">PRIVACY POLICY</a></div>
+        <div><a href="">REPORT ABUSE</a></div>
+    </div>
+</div>
+<div id="footergreen">
+    <div id="ftin">
+    <div></div>
+    <div><p>© 2022 FatSecret. All rights reserved.</p></div>
+    <div>INDIA</div>
+    </div>
+</div>
+</body>
+</html>
+<script type="module" src="./script/milk.js"></script>
+<!-- <script>
+     
+     async function getData(){
+        try {
+            const search = document.getElementById("movie").value
+            const api = `3a03e418`
+            const url = `http://www.omdbapi.com/?s=${search}&apikey=${api}&`;
+                let res = await fetch(url);
+                let data = await res.json();
+
+                console.log(data.Search);
+                showData(data.Search);
+
+            
+        } catch (error) {
+            console.log(error);
+        }
+    }
+
+    function showData(data){
+        cont.innerHTML = "";
+        data.map(function(elem){
+             
+            var main_div = document.createElement("div");
+            main_div.setAttribute("class","main_div");
+            var div2 = document.createElement("div");
+            div2.setAttribute("class","detail");
+
+            var h3 = document.createElement("h3")
+            h3.innerText = elem.Title
+            div2.append(h3)
+            main_div.append(div2)
+
+            cont.append(main_div);
+
+          main_div.addEventListener("click",function(){
+                foodList(elem.Title);
+                console.log(elem);
+            })
+           
+        })
+    }
+    
+    async function foodList(title){
+       
+        try {
+            const api = `3a03e418`
+            const url = `http://www.omdbapi.com/?t=${title}&apikey=${api}`;
+                let res = await fetch(url);
+                let data = await res.json();
+                console.log(data)
+            //   localStorage.setItem("movie",JSON.stringify(data));
+
+              window.location.href = "food.html"
+        } catch (error) {
+            console.log(error);
+        }
+    } -->
+
+
+<!-- </script> -->

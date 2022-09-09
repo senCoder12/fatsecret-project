@@ -9,6 +9,10 @@
         <link rel="stylesheet" href="./style/searchedrecepies.css">
     </head>
 <body>
+
+    <div id="navbar">
+        
+    </div>
     
     <div id="main_parent">
 
@@ -204,3 +208,8 @@
 </html>
 <script src="./script/searchedrecepies.js"></script>
 <script src="https://kit.fontawesome.com/bccd922fb7.js" crossorigin="anonymous"></script>
+
+<script defer type="module">
+    import {mynavbar} from './script/common.js'
+    document.getElementById("navbar").innerHTML = mynavbar;
+</script>
