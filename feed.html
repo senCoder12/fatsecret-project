@@ -5,12 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style/common.css">
     <link rel="stylesheet" href="./style/myFatSecretPage.css">
 </head>
 <body>
     <div id="mainPart">
 
     </div>
+    <div id="footerPart">
+
+    </div>
 </body>
 </html>
 <script src="./script/feed.js"></script>
+<script type="module">
+    import {myfooter} from "./script/common.js";
+
+    document.getElementById("footerPart").innerHTML = myfooter;
+</script>

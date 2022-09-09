@@ -1,4 +1,4 @@
-export  const footer = `
+export  const myfooter = `
   
 <div id="whitewall">
 <p>Get the app</p>
