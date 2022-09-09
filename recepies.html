@@ -10,7 +10,9 @@
 </head>
 <body>
 
+    <div id="navbar">
 
+    </div>
 
 
     <div id="main_parent">
@@ -268,11 +270,15 @@
         </div>
     </div>
 </div>
+<!-- footer -->
 </body>
 </html>
 
 <script src="./script/recepies.js"></script>
 <script src="https://kit.fontawesome.com/bccd922fb7.js" crossorigin="anonymous"></script>
 
+<script defer type="module">
+    import {mynavbar} from './script/common.js'
+    document.getElementById("navbar").innerHTML = mynavbar;
+</script>
 
-<!-- footer -->
