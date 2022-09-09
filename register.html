@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FatSecret India-Calorie Counter</title>
+    <link rel="icon" href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo400/1753594/1753594-1556750197620-e6d51f94ddc23.jpg">
+    <style>
+        #registercontainer{
+            width: 65%;
+            margin: auto;
+            border: 1px solid rgb(139, 214, 139);
+            height: 70vh;
+            margin-top: 100px;
+            box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+        }
+
+        #registercontainer h2{
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        #centerdivemail{
+            width: 50%;
+            /* border: 2px solid red; */
+            margin: auto;
+            margin-top: 30px;
+
+        }
+
+        #centerdivemail > p{
+            margin-bottom: 4px;
+        }
+
+        #emailtaker{
+            padding: 10px;
+            font-size: 15px;
+            width: 50%;
+        }
+        
+        #submitemail{
+            width: 37%;
+            height: 40px;
+            margin-left: 10px;
+            color: white;
+            background-color: rgb(46, 184, 46);
+            border: none;
+            font-weight: bold;
+        }
+
+        #submitemail:hover{
+            cursor: pointer;
+            background-color: rgb(42, 161, 42);;
+        }
+
+        #or{
+            text-align: center;
+        }
+
+        #facebook{
+            display: flex;
+            background-color: #3766b8;
+            color: white;
+            align-items: center;
+            width: 52%;
+            margin: auto;
+            height: 40px;
+        }
+
+        #facebook > img{
+            width: 25px;
+            height: 25px;
+            margin-left: 5px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            
+        }
+
+        #facebook p{
+            justify-content: center;
+            margin-left: 25%;
+        }
+
+        #facebook:hover{
+            cursor: pointer;
+            background-color: #1f4fa3;
+        }
+
+        #google{
+            display: flex;
+            background-color: #4285f4;
+            color: white;
+            align-items: center;
+            width: 52%;
+            margin: auto;
+            height: 40px;
+            margin-top: 18px;
+        }
+
+        #google > img{
+            width: 25px;
+            height: 25px;
+            margin-left: 5px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            
+        }
+
+        #google p{
+            justify-content: center;
+            margin-left: 25%;
+        }
+
+        #google:hover{
+            cursor: pointer;
+            background-color: #4278cf;
+        }
+
+        #signinredirect{
+            font-size: 17px;
+            color: rgb(117, 117, 117);
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        #signinredirect a{
+            text-decoration: none;
+            color: rgb(20, 158, 20);
+            font-weight: bold;
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body>
+    <div id="registercontainer">
+        <h2>Create Account</h2>
+
+        <div id="centerdivemail">
+            <p>Create account using email</p>
+            <input type="email" id="emailtaker" placeholder="Email Address">
+            <button id="submitemail">Continue</button>
+        </div>
+
+        <p id="or">or</p>
+        
+        <div id="facebook"><img src="https://play-lh.googleusercontent.com/5pZMqQYClc5McEjaISPkvhF8pDmlbLqraTMwk1eeqTlnUSjVxPCq-MItIrJPJGe7xW4=w480-h960-rw"><p>Continue with Facebook</p></div>
+        <div id="google"><img src="https://play-lh.googleusercontent.com/6UgEjh8Xuts4nwdWzTnWH8QtLuHqRMUB7dp24JYVE2xcYzq4HA8hFfcAbU-R-PC_9uA1" alt=""><p>Continue with Google</p></div>
+    
+        <p id="signinredirect">Got an account? <a href="./signin.html">Sign In</a></p>
+        
+    </div>
+</body>
+</html>
+
+<script>
+    document.getElementById("submitemail").addEventListener("click", ()=>{
+        let chk = document.getElementById("emailtaker").value;
+
+        if(chk == ""){
+            alert("Please enter proper Email ..!");
+        }else{
+            localStorage.setItem("signUpEmail", chk);
+            location.href = "./registration.html";
+        }
+    })
+</script>

@@ -1,0 +1,71 @@
+<!-- NOTE: Please make a copy of your OAuth 2.0 Client Secret as this is your only opportunity to view it. It cannot be retrieved later.
+Your OAuth 2.0 Client Secret is: e1b2717272ab44d18e690691aab4ca8c
+
+
+Your Client ID::-- 3afbef9bbbc24122af7b770f17bab21e 
+
+
+Your Client Secret::--- e1b2717272ab44d18e690691aab4ca8c
+
+
+https://platform.fatsecret.com/rest/server.api-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FatSecret India-Calorie Counter</title>
+    <link rel="icon" href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo400/1753594/1753594-1556750197620-e6d51f94ddc23.jpg">
+    <link rel="stylesheet" href="./style/terms.css">
+
+</head>
+<body>
+    <div id="main_terms">
+        <div id="toplogo">
+            <img src="https://a.ftscrt.com/static/images/def20/Fatsecret_logo.png" alt="">
+        </div>
+
+        <div id="illustrativeimg">
+            <img src="https://a.ftscrt.com/static/images/splash/img_data_collection_consent_01_1x.png" alt="">
+        </div>
+
+
+        <div id="middletext">
+            <h4>Before you get started</h4>
+            <p>FatSecret’s mission is to help you reach your nutrition goals by providing you with the tools and support to get there. To enable us to do this, we collect and use your data in several ways. Our privacy policy outlines the full details of this data use and your rights surrounding it.</p>
+        
+            <h3>How we use your data</h3>
+            <p>In summary, we use your data in the following ways:</p>
+
+            <ul>
+                <li>We use your personal and health data to provide you with nutrition goals (for example, your caloric RDI), as well as personalised nutrition guidance.</li>
+                <li>We use your in-app activity data to send you educational content about food and nutrition more broadly and guides on how to get the most out of the app’s features.</li>
+                <li>We use general analytics data to help us improve our platforms by understanding how our users use features throughout our website and our app.</li>
+            </ul>
+
+            <p>By clicking ‘Yes, I Agree’ below, you confirm you have read the privacy policy and agree to the uses of your data as outlined above. You can withdraw this permission in Data Consent under My Settings at any time.</p>
+        
+            <p id="privacypolicy"><a href="">Privacy Policy</a></p>
+
+            <div id="bottombuttons">
+                <button id="noagree">No, I do Not Agree</button>
+                <button id="agree">Yes, I Agree</button>
+            </div>
+            
+            
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    document.getElementById("agree").addEventListener("click", ()=>{
+        location.href = "./register.html";
+    })
+
+    document.getElementById("noagree").addEventListener("click", ()=>{
+        location.href = "./index.html";
+    })
+</script>

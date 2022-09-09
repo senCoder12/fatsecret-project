@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recipe Search</title>
+        <link rel="icon" href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo400/1753594/1753594-1556750197620-e6d51f94ddc23.jpg">
+        <link rel="stylesheet" href="./style/searchedrecepies.css">
+    </head>
+<body>
+
+    <div id="navbar">
+        
+    </div>
+    
+    <div id="main_parent">
+
+        
+       
+        <div id="leftparent">
+            <div id="homelogo">
+                <img src="https://d1nept1345ks2.cloudfront.net/static/images/def20/nav_breadcrumb_home.png" alt="">
+                <img src="https://d1nept1345ks2.cloudfront.net/static/images/def20/nav_breadcrumb_seperator.png" alt="">
+                <p><a href="">Recepie Search</a></p>
+            </div>
+            
+            <div id="toprecepiediv">
+                
+                <div id="recepiesearch">
+                    <h2 id="recepiehead">Recepie Search</h2>
+
+                    <label for="mealtype">Meal type</label>
+                    <select id="mealtype">
+                        <option value=""></option>
+                        <option value="">Appetizers</option>
+                        <option value="">Soups</option>
+                        <option value="">Main Dishes</option>
+                        <option value="">Side Dishes</option>
+                        <option value="">Breads & Baked Products</option>
+                        <option value="">Salads and Dressings</option>
+                        <option value="">Sauces and Condiments</option>
+                        <option value="">Desserts</option>
+                        <option value="">Snacks</option>
+                        <option value="">Beverages</option>
+                        <option value="">Breakfast</option>
+                        <option value="">Lunch</option>
+                        <option value="">Other</option>
+                    </select>
+                    <hr>
+                    <br>
+
+
+                    <label for="">Kaywords</label>
+                    <input type="text" id="topsearchbar" placeholder="Enter search">
+                    <hr>
+                    <button id="topsearchbutton"><i class="fa-solid fa-magnifying-glass"></i>   Search</button>
+                </div>
+                
+                
+                    
+
+
+
+            </div>
+
+            <div id="pages">
+                <p>1 to 4 of 4</p>
+            </div>
+
+            <div id="popular_recipes">
+               
+
+                <!-- <div>
+                    <div>
+                        <img src="https://m.ftscrt.com/static/recipe/597d6e55-5f8b-4b42-a82d-35b18bb4c396_sq.jpg" alt="">
+                    </div>
+
+                    <div>
+                        <h4><a href="">Mashed Cauliflower</a></h4>
+                        <p>Lovely steamed cauliflower mashed with cheese and garlic.</p>
+                        <img src="https://a.ftscrt.com/static/images/stars/four-star.gif" alt="">
+                    </div>
+                    <div>
+                        <p>by member: <a href="">shanintia</a></p>
+                        <p>Per serve - Energy: 67kcal | Carb: 11.76g | Prot: 5.32g | Fat: 0.98g</p>
+                    </div>
+                </div> -->
+                
+
+            </div>
+
+        </div>
+
+
+
+        <div id="rightparent">
+
+            <div id="browserecipesdeeper">
+
+                <p id="metype">SEARCH</p>
+
+                <div id="mealtypediv">
+                    <p><img src="https://static.fatsecret.com/static/images/def20/icons/foods_b.png" alt="">  Foods</p>
+                    <p id="recipetag" style="color: white; background-color: #33b34b"><img src="https://static.fatsecret.com/static/images/def20/icons/recipes_b.png" alt="">  Recipes</p>
+                    <p><img src="https://static.fatsecret.com/static/images/def20/icons/exercise_b.png" alt="">  Fitness</p>
+                    <p><img src="https://static.fatsecret.com/static/images/def20/icons/members_b.png" alt="">  Members</p>
+                
+                </div>
+
+            </div>
+
+            <div id="searchdiv">
+                <div>
+                <h3 id="foodsearch"><i>Food Search</i></h3>
+                <input type="text" id="searchbox" placeholder="Enter search" oninput="debounce()">
+                <button id="searchbutton"><i class="fa-solid fa-magnifying-glass"></i></button><br>
+                
+                <div id="searchresultbox">
+                    <!-- <p>Chicken</p>
+                    <p>Chicken Khima</p>
+                    <p>Chicken Biryani</p>
+                    <p>Chicken Tandoor</p> -->
+                </div>
+                <!-- <div id="searcheddata">
+                    
+                </div> -->
+                <!-- <input type="radio" id="recipe" value="1">
+                <label for="recipe">Recipes</label>
+
+                <input type="radio" id="meal" value="2">
+                <label for="meal">Meals</label>
+
+                <input type="radio" id="food" value="3">
+                <label for="food">Food</label> -->
+
+                </div>
+            </div>
+
+            <div id="advertisementdiv">
+                <img src="https://thumbs.gfycat.com/ValuableTartGordonsetter-size_restricted.gif" alt="">
+            </div>
+
+
+           
+
+            <p id="sharereceipe"><img src="https://static.fatsecret.com/static/images/icons/upload_orange.gif" alt="">  Share Your Recipes!</p>
+
+            <div id="mycookbook">
+                <p id="my"><img src="https://static.fatsecret.com/static/images/box/membericon.gif" alt="">  My Cookbook</p>
+            
+                <p id="published"><a href="">0 published recipes</a></p>
+                <p id="recently1">recently added recipes:</p>
+                <p id="noentries"><a href="">no entries in your cookbook.</a></p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ------------------------------------Footer--------------------------- -->
+<div id="footer">
+    <div id="whitewall">
+        <p>Get the app</p>
+        <div id="playstorebuttons" >
+            <a><img src="https://a.ftscrt.com/static/images/mobi/ios/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"></a>
+            <a><img src="https://a.ftscrt.com/static/images/mobi/android/en_get_2.svg"></a>
+        </div>
+    </div>
+    <div id="footermiddel">
+        <div id="fmsocial">
+            <a href=""><img src="https://a.ftscrt.com/static/images/social/but_social_facebook.svg" alt="fb"></a>
+            <a href=""><img src="https://a.ftscrt.com/static/images/social/but_social_instagram.svg" alt="insta"></a>
+            <a href=""><img src="https://a.ftscrt.com/static/images/social/but_social_twitter.svg" alt="twitter"></a>
+        </div>
+        <div id="fmmid">
+            <div><a>BRAND LIST</a></div>
+            <div><a>CONTACT US</a></div>
+        </div>
+        <div id="fmbottom">
+            <div><a href="">FIND PEOPLE</a></div>
+            <div><a href="">TERMS & CONDITIONS</a></div>
+            <div><a href="">PRIVACY POLICY</a></div>
+            <div><a href="">REPORT ABUSE</a></div>
+        </div>
+    </div>
+    <div id="footergreen">
+        <div id="ftin">
+        <div></div>
+        <div><p>© 2022 FatSecret. All rights reserved.</p></div>
+        <div>INDIA</div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
+<script src="./script/searchedrecepies.js"></script>
+<script src="https://kit.fontawesome.com/bccd922fb7.js" crossorigin="anonymous"></script>
+
+<script defer type="module">
+    import {mynavbar} from './script/common.js'
+    document.getElementById("navbar").innerHTML = mynavbar;
+</script>

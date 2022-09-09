@@ -1,0 +1,1177 @@
+#main_parent{
+    width: 80%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+    height: 150px;
+}
+
+#leftparent{
+    /* width: 62%; */
+    width: 67%;
+    /* border: 2px solid purple; */
+    
+
+}
+
+
+
+
+#homelogo{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#homelogo > p > a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #85c2da;
+}
+
+#detailsofrecipe{
+    /* border: 2px solid red; */
+    box-shadow: #bacfe6 0px 0px 0px 3px, #62a9f6 0px 0px 0px 6px, #3d90e8 0px 0px 0px 9px, #bacfe6 0px 0px 0px 12px, #0571e4 0px 0px 0px 15px;
+    width: 100%;
+    height: 540px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftdata{
+    /* border: 2px solid black; */
+    /* height: 100px; */
+    width: 24%;
+}
+
+#mainpic{
+    width: 90%;
+    height: 140px;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    border: 5px solid #e6fafe;;
+}
+
+
+#addtomycookbook{
+    color: #028cc4;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+#addtofooddiary{
+    color: #028cc4;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#yield{
+    background-color: #ebf9fc;
+    height: 50px;
+    margin-left: 10px;
+}
+
+/* 
+#yield > p{
+    margin-left: 14px;
+} */
+
+#yield > p:nth-child(1){
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 8px;
+}
+
+#yield > p:nth-child(2){
+    margin-top: -12px;
+    font-size: 14px;
+    padding-left: 8px;
+}
+
+
+#preptime{
+    background-color: #ebf9fc;
+    height: 50px;
+    margin-left: 10px;
+}
+
+#preptime > p:nth-child(1){
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 8px;
+}
+
+#preptime > p:nth-child(2){
+    margin-top: -12px;
+    font-size: 14px;
+    padding-left: 8px;
+}
+
+
+#mealtype{
+    background-color: #ebf9fc;
+    height: 50px;
+    margin-left: 10px;
+}
+
+#mealtype > p:nth-child(1){
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 8px;
+}
+
+#mealtype > p:nth-child(2){
+    margin-top: -12px;
+    font-size: 14px;
+    padding-left: 8px;
+}
+
+
+
+
+
+
+
+#ratingdiv{
+    background-color: #ebf9fc;
+    height: 100px;
+    margin-left: 10px;
+}
+
+
+#ratingdiv img{
+    margin-top: -5px;
+    /* margin-left: 15px; */
+    margin-left: 10px;
+}
+
+
+#ratingdiv > p:nth-child(1){
+    margin-left: -10px;
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 8px;
+}
+
+#ratingdiv img + p{
+    margin-top: 0px;
+    font-size: 13px;
+    padding-left: 8px;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+#rightdata{
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 73%;
+    margin-right: 8px;
+}
+
+
+#mainheading{
+    margin-top: 10px;
+
+}
+
+#mainheading + hr{
+    border-top: 1px solid #d3f7fc;
+}
+
+#rightdata > h4 + hr{
+    border-top: 1px solid #d3f7fc;
+    margin-top: -15px;
+}
+
+#ingredients > p > a{
+    text-decoration: none;
+    color: #028cc4;
+    font-size: 14px;
+   
+}
+
+#ingredients > p{
+    margin-bottom: -10px;
+}
+
+#directions{
+    /* border: 2px solid red; */
+    width: 99%;
+    height: 220px;
+    /* overflow: hidden; */
+    overflow-y: scroll;
+}
+
+#directions::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#directions {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#directions p{
+    text-align: justify;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+#reviewssection{
+    width: 100%;
+    height: 500px;
+    
+    margin-top: 50px;
+}
+
+#givereview{
+    width: 100%;
+    height: 230px;
+    border: 1px solid #fcf3e5;
+    background-color: #fcf3e5;
+    margin-top: 50px;
+}
+
+#givereview > div{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    
+}
+
+#givereview > div:nth-child(1){
+    align-items: center;
+}
+
+#givereview h3{
+    margin-left: 15px;
+}
+
+#reviewpostbutton{
+    border: none;
+    color: white;
+    background-color: #32B14C;
+    font-weight: bold;
+    height: 30px;
+    width: 12%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#reviewpostbutton:hover{
+    transform: scale(1.1);
+}
+
+#hrtag{
+    border-top: 1px solid #f9d497;
+}
+
+
+#myratingheading{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#givereview input{
+    margin-left: 10px;
+}
+
+
+
+
+#reviewshow p{
+    display: flex;
+}
+
+#reviewshow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+#reviewposted{
+    font-size: 15px;
+}
+
+#date{
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+/*---------------------------------left parent css starts----------------------------------- */
+
+
+
+
+#lowp{
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+#lowp + img{
+    width: 96%;
+    display: flex;
+    margin: auto;
+    height: 150px;
+}
+
+#freshpeasoup a{
+    text-decoration: none;
+    color: #028cc4;
+}
+
+#freshpeasoup + p{
+    margin-top: -10px;
+    font-size: 15px;
+    width: 96%;
+    margin-left: 10px;
+}
+
+#freshpeasoup + p + img{
+    margin-top: -12px;
+    margin-left: 10px;
+}
+
+#viewmorelowcholesterol a{
+    text-decoration: none;
+    color: #028cc4;
+    margin-left: 12%;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+
+#viewmorelowcholesterol{
+    margin-top: 0px;
+}
+
+
+/*---------------------------------left parent css Ends----------------------------------- */
+
+
+/*---------------------------------right parent css Starts----------------------------------- */
+
+
+
+#rightparent{
+    width: 30%;
+    /* border: 2px solid green; */
+    margin-top: 24px;
+    height: 1000px;
+}
+
+
+#findmorerecipes{
+    border: 1px solid #edf1e9;
+    width: 100%;
+    /* height: 350px; */
+    background-color: #edf1e9;
+}
+
+#findmorerecipes > h4{
+    margin-left: 10px;
+    /* margin-right: -20px; */
+}
+
+#filterbymeal{
+    margin-left: 10px;
+    font-size: 13px;
+    margin-top: -10px;
+    color: rgb(114, 114, 114);
+    font-weight: bold;
+}
+
+#maindish{
+    margin-left: 10px;
+    font-size: 13px;
+    margin-top: -10px;
+    color: #028cc4;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#newestrecipe{
+    font-size: 13px;
+    color: rgb(114, 114, 114);
+    margin-left: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: -6px;
+}
+
+#newestrecipe + hr{
+    border-top: 1px solid #cfe6b9;
+}
+
+
+#newestrecipesdiv h5{
+    margin-left: 10px;
+    color: #028cc4;
+    cursor: pointer;
+}
+
+#newestrecipesdiv p{
+    margin-left: 10px;
+    margin-top: -15px;
+    font-size: 14px;
+    
+}
+
+
+
+
+
+#advertisementdiv{
+    margin-top: 25px;
+}
+
+#advertisementdiv img{
+    width: 100%;
+    height: 280px;
+}
+
+
+#foo{
+    color: black;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+#foodsandingreidents p{
+    background-repeat: no-repeat;
+    margin-left: 25px;
+    vertical-align: top;
+    display: flex;
+    color: #028cc4;
+
+}
+
+#foodsandingreidents p:hover{
+    cursor: pointer;
+    background-color: #ddead1;
+
+}
+
+#di{
+    color: black;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+
+#dietandnutrition p{
+    background-repeat: no-repeat;
+    margin-left: 25px;
+    vertical-align: top;
+    display: flex;
+    color: #028cc4;
+}
+
+#dietandnutrition p:hover{
+    cursor: pointer;
+    background-color: #ddead1;
+
+}
+
+
+
+
+
+#sharereceipe{
+    margin-top: 25px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #028cc4;
+    display: flex;
+    
+}
+
+#mycookbook{
+    background-color: #fcf3e5;
+    width: 100%;
+    /* height: 200px; */
+    border: 1px solid #fcf3e5;
+}
+
+#my{
+    display: flex;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+#published{
+    margin-left: 10px; 
+    font-size: 14px;
+    margin-bottom: -10px;
+}
+
+#published a{
+    text-decoration: none;
+    color: #028cc4;
+}
+
+#recently1{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+#noentries{
+    margin-left: 10px; 
+    font-size: 14px;
+}
+
+#noentries a{
+    text-decoration: none;
+    color: #028cc4;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------- */
+
+#nutritionfacts{
+    width: 100%;
+    height: 780px;
+    border: 1px solid #edf1e9;
+    background-color: #edf1e9;
+    margin-top: 25px;
+}
+
+#innerdivtop{
+    width: 85%;
+    border: 2px solid rgb(176, 175, 175);
+    margin: auto;
+    margin-top: 25px;
+    height: 470px;
+    background-color: white;
+}
+
+#innerdivtop h2{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#innerdivtop h2 + hr{
+    width: 90%;
+    border: 1px solid rgb(214, 214, 214);
+    margin-top: -10px;
+}
+
+
+#topdis{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+#topdis + hr{
+    width: 90%;
+    border-top: 10px solid rgb(156, 156, 156);
+    margin: auto;
+    margin-top: 8px;
+}
+
+#perserve{
+    display: flex;
+    justify-content: right;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#perserve + hr{
+    width: 90%;
+    border-top: 6px solid rgb(156, 156, 156);
+    margin: auto;
+    margin-top: 5px;
+}
+
+#energy{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#energy2{
+    display: flex;
+    justify-content: right;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+#energy2 + hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#fat{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#fat1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-left: 15px; 
+}
+
+#fat2{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-left: 15px; 
+}
+
+#fat3{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-left: 15px; 
+}
+
+#fat3+hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+
+#carbohydrates{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+#carbohydrates + p{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+#carbohydrates + p + hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+
+#carbohydrates + p + hr + p{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+
+
+#carbohydrates + p + hr + p + hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+
+#protein{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#protein + hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#protein + hr + p{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+#protein + hr + p + hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#protein + hr + p + hr + p{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+#protein + hr + p + hr + p + hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#protein + hr + p + hr + p + hr + p{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+#protein + hr + p + hr + p + hr + p + hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    border-top: 5px solid rgb(156, 156, 156);
+}
+
+
+
+#middlediv{
+    width: 85%;
+    border: 2px solid rgb(182, 207, 246);
+    margin: auto;
+    margin-top: 15px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+}
+
+#middlediv p:nth-child(1){
+    margin-bottom: -12px;
+}
+
+
+#middlediv h1{
+    font-size: 40px;
+}
+
+
+#bottomdiv{
+    width: 85%;
+    border: 2px solid rgb(182, 207, 246);
+    margin: auto;
+    margin-top: 15px;
+    height: 85px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+}
+
+
+#bottomdiv > div{
+    margin-top: 10px;
+}
+
+#bottomdiv P{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#bottomdiv > div > ul{
+    list-style: square;
+    margin-top: -10px;
+    font-size: 14px;
+    
+}
+
+/* #bottomdiv ul li::before{
+    color: red;
+} */
+
+#piediv img{
+    width: 50px;
+    height: 50px;
+}
+
+
+#bottomtext{
+    font-size: 13px;
+    font-weight: bolder;
+    width: 88%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#bottomtext1{
+    font-size: 13px;
+    font-weight: bolder;
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    color: #028cc4;
+}
+
+#bottomtext1:hover{
+    cursor: pointer;
+}
+/*---------------------------------right parent css Ends----------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------Footer Section Starts-------------------------------------------------- */
+
+
+
+ 
+  
+  /* css code   */
+
+  #footergreen {  
+    width: 100%;
+    padding-top: 25px;
+    color: white;
+    background-color: #32B14C;
+    height: 100px;
+  }
+
+  
+  
+
+#fmmid{
+    display: grid;
+    width: 20%;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: space-between;
+    margin: auto;
+    color: white;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+  
+  #ftin{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    margin: auto;
+    /* gap: 3%; */
+  }
+  #ftin div{
+    margin: auto;
+  }
+  #footermiddel{
+    background-color: #333333;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    padding-top: 25px;
+    margin-top: -120px;
+    
+   
+  }
+  #fmbottom{
+    display: grid;
+    width: 60%;
+    grid-template-columns: repeat(4, 25%);
+    justify-content: space-between;
+    margin: auto;
+    color: white;
+  }
+  #fmbottom a{
+    text-decoration: none;
+    color: white;
+  }
+ 
+  #fmsocial{
+    text-align: center;
+  }
+  #fmsocial img{
+    margin-right: 10px;
+    padding: 15px 0 15px 0 ;
+  }
+  #whitewall{
+    background-color: white;
+    height: 300px;
+    text-align: center;
+    display: grid;
+    margin-top: 1500px;                      
+    /* ------------------------------------------------ */
+  }
+
+ 
+
+  #playstorebuttons{
+    margin-top: -100px;
+
+  }
+
+ /* -------------------------------------Footer Section Ends-------------------------------------------------- */
+  
+ 
+  
+
+
+
+  
+/*-------------------------------------- Navbar css starts here ------------------------------------*/
+
+
+#navbar{
+    background-color: #edf1e9;
+    height: 200px;
+    width: 100%;
+}
+
+#topnavbar{
+    background-color: #33b24b;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+    
+}
+
+#topnavbar p{
+    color: white;
+    margin-right: 100px;
+    font-size: 15px;
+}
+
+#middlenavbar{
+    background-color: #edf1e9;
+    width: 100%;
+}
+
+
+
+#signout:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#name:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#weight:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#recbutton{
+    border: none;
+}
+
+
+#mainlogo{
+    margin-left: 10%;
+    margin-top: 20px;
+    
+    width: 17%;
+}
+
+#india{
+    color: #33b24b;
+    margin-left: 24%;
+    margin-top: -10px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+#recbutton{
+    background-color: #edf1e9;
+    border: 1px solid rgb(205, 205, 205);
+}
+
+
+#mastersearch{
+    background-color: #edf1e9;
+    border: 1px solid rgb(205, 205, 205);
+    padding: 5px;
+    width: 250px;
+}
+
+#searchbar{
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    width: 26%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#mastersearchbutton{
+    color: #028cc4;
+    background-color: #edf1e9;
+    padding: 5px;
+    border: 1px solid rgb(205, 205, 205);
+    font-weight: bolder;
+    width: 50px;
+}
+
+
+
+#bottomnavbar{
+    background-color: #edf1e9;
+    /* height: 100px; */
+    width: 100%;
+    border-top: 1px solid rgb(204, 203, 203);
+    border-bottom: 2px solid #bad8e5;
+}
+
+
+
+
+#optionsfornav{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 70%;
+    margin-left: 10%;
+    /* margin: auto; */
+    /* border: 2px solid blue; */
+}
+
+#optionsfornav div{
+    width: 100%;
+    border: 1px solid rgb(204, 203, 203);
+    /* padding: 5px; */
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#optionsfornav div a{
+    text-decoration: none;
+    color: black;
+}
+
+#optionsfornav div a:hover{
+    color: #028cc4;
+}
+
+
+#optionsfornav div:hover{
+    background-color: #f6f8f4;
+    cursor: pointer;
+    color: #028cc4;
+}
+
+/* please enter here number according to your page */
+#optionsfornav div:nth-child(3){
+    background-color: white;
+    border-bottom: none;
+}
+/* please enter here number according to your page */
+
+
+body{
+    margin: 0;
+}
+ /*----------------------------------------- navbar css ends here------------------------------------ */

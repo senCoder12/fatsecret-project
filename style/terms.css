@@ -1,0 +1,102 @@
+#middletext ul{
+    font-family: Helvetica, Arial;
+    font-size:16px;
+}
+
+#middletext ul+p{
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: gray;
+}
+
+#middletext h4{
+    font-family: Helvetica, Arial;
+    font-size:16px;
+}
+
+#middletext h3{
+    font-family: Helvetica, Arial;
+    font-size:16px;
+}
+
+#middletext h3+p{
+    font-family: Helvetica, Arial;
+    font-size:16px;
+}
+
+#middletext h4+p{
+    font-family: Helvetica, Arial;
+    font-size: 16px;
+}
+
+
+#main_terms{
+    width: 65%;
+    /* height: 70vh; */
+    border: 1px solid rgb(139, 214, 139);
+    margin: auto;
+    margin-top: 35px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+#toplogo{
+    border-bottom: 1px solid rgb(139, 214, 139);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#toplogo > img{
+    height: 40px;
+    width: 20%;
+    margin-left: 30px;
+}
+
+#illustrativeimg > img{
+    display: flex;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#middletext{
+    width: 60%;
+    margin: auto;
+}
+
+#privacypolicy{
+    text-align: center;
+    font-size: 13px;
+}
+
+#privacypolicy a{
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+    font-size: 14px;
+}
+
+#bottombuttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+#bottombuttons button{
+    width: 150px;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#agree{
+    background-color: rgb(32, 172, 32);
+    color: white;
+    font-size: 16px;
+}
+
+#noagree{
+    color: rgb(0, 132, 255);
+    font-size: 16px;
+}
+
