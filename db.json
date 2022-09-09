@@ -5,37 +5,7 @@
       "name": "some name",
       "email": "someEmail@json-server",
       "password": "somePassword"
-    },
-    {
-      "name": "Mayukh sen",
-      "email": "mayukh123@gmail.com",
-      "password": "mayukh123",
-      "id": 2
-    },
-    {
-      "name": "mayuk",
-      "email": "mayukh123@gmail.com",
-      "password": "12345678",
-      "id": 3
-    },
-    {
-      "name": "Gourav",
-      "email": "gouravsapkal123@gmail.com",
-      "password": "12345678",
-      "id": 4
-    },
-    {
-      "name": "Mayukh Sen",
-      "email": "mayukhsen123@gmail.com",
-      "password": "12345678",
-      "id": 5
-    },
-    {
-      "name": "Gaurav",
-      "email": "gauravsapkal1997@gmail.com",
-      "password": "1234",
-      "id": 6
-    }
+    }    
   ],
   "food": [
     {
@@ -193,6 +163,18 @@
           "hisComment": "Nice",
           "img": "https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",
           "data": "Sep 9, 2022"
+        },
+        {
+          "name": "Anidha singh",
+          "hisComment": "dogs are very friendly",
+          "img": "https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",
+          "data": "Sep 10, 2022"
+        },
+        {
+          "name": "Mayukh Sen",
+          "hisComment": "nice picture",
+          "img": "https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",
+          "data": "Sep 10, 2022"
         }
       ]
     },
@@ -229,6 +211,12 @@
           "hisComment": "It seems like delicious.  ",
           "img": "https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",
           "data": "Sep 8, 2022"
+        },
+        {
+          "name": "Mayukh Sen",
+          "hisComment": "looking cute",
+          "img": "https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",
+          "data": "Sep 10, 2022"
         }
       ]
     },
@@ -367,6 +355,12 @@
           "hisComment": "Sherry it looks delicious. Your doing a great job with your weight loss. Keep it up. Well done.   ",
           "img": "https://m.ftscrt.com/static/member/21136dce-04f5-4cdc-a630-8fe7ebe57259_sq.jpg",
           "data": "06 Sep 22"
+        },
+        {
+          "name": "Aradha",
+          "hisComment": "very tasty food",
+          "img": "https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",
+          "data": "Sep 10, 2022"
         }
       ]
     },

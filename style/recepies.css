@@ -1,5 +1,5 @@
 #main_parent{
-    width: 90%;
+    width: 78%;
     /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
@@ -11,7 +11,8 @@
 
 #leftparent{
     /* width: 62%; */
-    width: 67%;
+    width: 60%;
+    margin-left: 80px;
     /* border: 2px solid purple; */
 
 }
@@ -196,9 +197,6 @@
     align-items: center;
 }
 
-#popular_recipes > div > div:nth-child(1){
-
-}
 
 
 #popular_recipes > div > div:nth-child(1) > img{
@@ -206,10 +204,6 @@
     width: 60px;
 }
 
-
-#popular_recipes > div > div:nth-child(2){
-    
-}
 
 #popular_recipes > div > div:nth-child(2) > p{
     width: 350px;
@@ -233,10 +227,6 @@
     display: flex;
     margin-top: -10px;
     margin-left: 10px;
-}
-
-#popular_recipes > div > div:nth-child(3){
-   
 }
 
 #popular_recipes > div > div:nth-child(3) > p{
@@ -739,10 +729,7 @@
 }
 
 /* please enter here number according to your page */
-#optionsfornav div:nth-child(3){
-    background-color: white;
-    border-bottom: none;
-}
+
 /* please enter here number according to your page */
 
 

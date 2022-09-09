@@ -1,5 +1,6 @@
 document.getElementById("ctl03_ctl01_Email").value = localStorage.getItem("signUpEmail");
 
+
 function changetofoot() {
     document.getElementById("cms").style.display = "none";
     document.getElementById("foot").style.display = "inline";
@@ -42,7 +43,8 @@ document.getElementById("nxtBtn").addEventListener("click", ()=> {
     let name = document.getElementById("ctl03_ctl01_Name").value;
     let email = document.getElementById("ctl03_ctl01_Email").value;
     let password = document.getElementById("ctl03_ctl01_Password").value;
-    let weight = document.getElementById("ctl03_ctl01_WeightKg").value
+    let weight = document.getElementById("ctl03_ctl01_WeightKg").value;
+    console.log(weight);
     if (name == "" || email == "" || password == "") {
         alert("please enter a name or email Address or password");
     }else {

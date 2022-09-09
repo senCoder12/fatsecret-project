@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./style/myFatSecretPage.css">
 </head>
 <body>
+    <div id="navbar">
+
+    </div>
     <div id="mainPart">
 
     </div>
@@ -19,7 +22,8 @@
 </html>
 <script src="./script/feed.js"></script>
 <script type="module">
-    import {myfooter} from "./script/common.js";
+    import {myfooter,mynavbar} from "./script/common.js";
 
     document.getElementById("footerPart").innerHTML = myfooter;
+    document.getElementById("navbar").innerHTML = mynavbar;
 </script>

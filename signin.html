@@ -231,11 +231,24 @@
                 email : email,
                 password : password
             }
-            location.href ="./myFatSecretPage.html";
-        }
 
-       
-        
+            fetchData().then((res)=>{
+                res = res.filter((elm)=>{
+                    return elm.email == email && elm.password==password;
+                })
+                if(res.length == 0) {
+                    alert("Please enter proper Email and password ..!");
+                }else {
+                    location.href ="./myFatSecretPage.html";
+                }
+            })
+        }     
        
     })
+
+    const fetchData = async()=> {
+        let data = await fetch("http://localhost:3000/posts");
+        let response = data.json();
+        return response;
+    }
 </script>

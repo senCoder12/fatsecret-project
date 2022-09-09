@@ -93,7 +93,7 @@ function suggestionbox(data){
 }
 
 
-document.getElementById("searchbutton").addEventListener("click", searchData)
+// document.getElementById("searchbutton").addEventListener("click", searchData)
 
 
 function searchData(){

@@ -40,10 +40,17 @@ export  const myfooter = `
 
 export const mynavbar = `
 
+<style>
+    #signout a {
+        text-decoration: none;
+        color: white;
+    }
+</style>
+
 <div id="topnavbar">
     <!-- <div> -->
         <p>
-            Hello <span id="name">Gaurav sapkal</span>  |  My Weight: <span id="weight">80</span> kg, 5 days ago  |  4 unread notifications  |  <span id="signout">Sign Out</span>
+            Hello <span id="name">${JSON.parse(localStorage.getItem('data')).name}</span>  |  My Weight: <span id="weight">${JSON.parse(localStorage.getItem('data')).weight}</span> kg  |  <span id="signout"><a href="./index.html">Sign Out</a></span>
         </p>
     <!-- </div> -->
 </div>
@@ -75,5 +82,11 @@ export const mynavbar = `
 <div><a href="">COMMUNITY</a></div>
 </div>
 </div>
+
+<script>
+    document.getElementById("signout").addEventListener("click", () => {
+        localStorage.clear();
+    });
+</script>
 
 `
