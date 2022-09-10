@@ -11,6 +11,54 @@
       "email": "check@gmail.com",
       "password": "1234",
       "id": 2
+    },
+    {
+      "name": "check@gmail.com",
+      "email": "check@gmail.com",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "name": "Raj",
+      "email": "check@gmail.com",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "name": "abhi",
+      "email": "abhisatape2000@gmail.com",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "name": "Mayukh",
+      "email": "check@gmail.com",
+      "password": "1234",
+      "id": 6
+    },
+    {
+      "name": "Mayukh",
+      "email": "check@gmail.com",
+      "password": "1234",
+      "id": 7
+    },
+    {
+      "name": "Mayukh",
+      "email": "abhisatape2000@gmail.com",
+      "password": "1234",
+      "id": 8
+    },
+    {
+      "name": "mayukh",
+      "email": "check@gmail.com",
+      "password": "1234",
+      "id": 9
+    },
+    {
+      "name": "mayukh",
+      "email": "check@gmail.com",
+      "password": "1234",
+      "id": 10
     }
   ],
   "food": [
@@ -181,6 +229,30 @@
           "hisComment": "nice picture",
           "img": "https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",
           "data": "Sep 10, 2022"
+        },
+        {
+          "name": "Mayukh Sen",
+          "hisComment": "nice",
+          "img": "https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",
+          "data": "Sep 10, 2022"
+        },
+        {
+          "name": "Mayukh Sen",
+          "hisComment": "cool",
+          "img": "https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",
+          "data": "Sep 10, 2022"
+        },
+        {
+          "name": "Mayukh Sen",
+          "hisComment": "hi",
+          "img": "https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",
+          "data": "Sep 10, 2022"
+        },
+        {
+          "name": "Mayukh",
+          "hisComment": "nice",
+          "img": "https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",
+          "data": "Sep 10, 2022"
         }
       ]
     },
@@ -221,6 +293,24 @@
         {
           "name": "Mayukh Sen",
           "hisComment": "looking cute",
+          "img": "https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",
+          "data": "Sep 10, 2022"
+        },
+        {
+          "name": "Mayukh Sen",
+          "hisComment": "delicious",
+          "img": "https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",
+          "data": "Sep 10, 2022"
+        },
+        {
+          "name": "Mayukh",
+          "hisComment": "sweet",
+          "img": "https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",
+          "data": "Sep 10, 2022"
+        },
+        {
+          "name": "Mayukh",
+          "hisComment": "Cool",
           "img": "https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",
           "data": "Sep 10, 2022"
         }
@@ -289,6 +379,24 @@
           "hisComment": "YFritz, the salmon was infinitely better than the sardines! 🤣 not all of my cooking experiments turn out well. With a dog in the house no stinky food goes to waste though lol. I am going to start calling you “ Witchy-poo”😂 Have a great day.",
           "img": "https://m.ftscrt.com/static/member/2b814c22-2bdc-4c6c-aa61-03777fca612f_sq.jpg",
           "data": "06 Sep 22"
+        },
+        {
+          "name": "Mayukh Sen",
+          "hisComment": "nice",
+          "img": "https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",
+          "data": "Sep 10, 2022"
+        },
+        {
+          "name": "mayukh",
+          "hisComment": "Niceeeee",
+          "img": "https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",
+          "data": "Sep 10, 2022"
+        },
+        {
+          "name": "mayukh",
+          "hisComment": "nice",
+          "img": "https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",
+          "data": "Sep 10, 2022"
         }
       ]
     },

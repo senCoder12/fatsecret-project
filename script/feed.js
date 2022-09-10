@@ -109,7 +109,7 @@ fetchData(localStorage.getItem("id"));
 
 const postComment = async(elm,id,cmnt) => {
     console.log(id);
-    const myName = JSON.parse(localStorage.getItem("data")).name;
+    let myName = JSON.parse(localStorage.getItem("data")).name;
     let todate = new Date().toLocaleDateString('en-us', {  year:"numeric", month:"short", day:"numeric"}) 
     let obj = {name:myName,hisComment: cmnt,img:"https://i.pinimg.com/originals/19/e3/79/19e379ccc6e5099b6278fef0696358b5.png",data: todate};
     elm.comments.push(obj);
